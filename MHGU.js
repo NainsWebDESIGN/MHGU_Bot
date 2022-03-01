@@ -1,4 +1,3 @@
-// line bot API 使用方式 https://ithelp.ithome.com.tw/articles/10198142
 function doPost(e) {
   //認證身份，重新輸入line@ channel_access_token
   var CHANNEL_ACCESS_TOKEN =
@@ -16,25 +15,6 @@ function doPost(e) {
   if (typeof replyToken === "undefined") {
     return;
   }
-  // 幻化 https://www.bilibili.com/video/BV1LV411n7oH/
-  // 1. 遠程(粉) 02:30:
-  // 泡狐龍頭盔
-  // 雪絨花枝部
-  // 天眼手甲
-  // 泡狐龍護腰
-  // 天眼輕甲
-  // 2. 近戰(金色) 03:38:
-  // GX雷狼龍頭盔
-  // 怒天羽織·真
-  // 齊天臂甲·真
-  // 貪婪Z護裙
-  // 齊天腿甲·真
-  // 3. 遠程(黑紅) 04:00:
-  // GX黑蝕龍
-  // EX黑蝕龍
-  // EX黑蝕龍
-  // EX黑蝕龍
-  // 毒蛛
   let call = "獵人小幫手",
     call_1 = "獵幫",
     call_2 = "MHGU",
@@ -443,161 +423,240 @@ function doPost(e) {
       黃醃摩卡的壺:
         "醃摩卡的壺・黃:\r\n太陽草 + 醃摩卡的壺  註:怪力之種→怪力之種→怪力之種→回復藥\r\n落陽草 + 醃摩卡的壺  註:忍耐之種→忍耐之種→忍耐之種→回復藥\r\n火藥草 + 醃摩卡的壺  註:火藥草→火藥草→爆藥→火藥草\r\n藍香菇 + 醃摩卡的壺  註:增強劑→增強劑→增強劑→小石頭\r\n特產香菇 + 醃摩卡的壺  註:熟成香菇\r\n嚴選香菇 + 醃摩卡的壺  註:嚴選香菇→鬼松蘑→鬼松蘑→鬼松蘑\r\n仙人掌花 + 醃摩卡的壺  註:百花仙人掌\r\n電龍幼兒 + 醃摩卡的壺  註:醃電龍幼兒\r\n超毒菇 + 醃摩卡的壺  註:解毒草→漢方藥→秘藥→小石頭\r\n米蟲 + 醃摩卡的壺  註:米蟲→苦蟲→雷光蟲→苦蟲\r\n寒冷麥 + 醃摩卡的壺  註:頑固麵包→頑固麵包→頑固麵包→頑固麵包\r\n辣油 + 醃摩卡的壺  註:力量牛油→力量牛油→力量牛油→力量牛油\r\n乾乳瑪琳 + 醃摩卡的壺  註:猛牛奶油→猛牛奶油→猛牛奶油→猛牛奶油\r\n昆蟲死骸 + 醃摩卡的壺  註:昆蟲死骸→漢方藥→回復藥→小石頭\r\n不可回收垃圾 + 醃摩卡的壺  註:藥草→藥草→回復藥→小石頭",
     },
-    // 肉質 http://wiki.mhxg.org/data/2501.html 到 オストガロア
+    // 肉質 http://wiki.mhxg.org/data/1852.html
     // 圖片url https://www.ifreesite.com/upload/
     Succulent = {
       青熊獸: [
         "https://i.imgur.com/Ihj51cE.jpg",
         "https://i.imgur.com/RgwDVWd.jpg",
         "https://i.imgur.com/mUDvAew.jpg",
+        "1964",
       ],
       紅兜青熊獸: [
         "https://i.imgur.com/Wv1hVPE.jpg",
         "https://i.imgur.com/7Bt4IEp.jpg",
         "https://i.imgur.com/A0pmRVT.jpg",
         "https://i.imgur.com/eqmHRh3.jpg",
+        "2835",
       ],
       霸龍: [
         "https://i.imgur.com/PR2kJSE.jpg",
         "https://i.imgur.com/ZHOBj8T.jpg",
         "https://i.imgur.com/MN8VVB4.jpg",
         "https://i.imgur.com/1rWVSZM.jpg",
+        "2875",
       ],
       炎戈龍: [
         "https://i.imgur.com/0F8RXvp.jpg",
         "https://i.imgur.com/qF4RQIH.jpg",
         "https://i.imgur.com/OLaHku9.jpg",
         "https://i.imgur.com/2VWgOfv.jpg",
+        "1848",
       ],
       閣螳螂: [
         "https://i.imgur.com/8jOXnPV.jpg",
         "https://i.imgur.com/L6P69Lu.jpg",
         "https://i.imgur.com/A95oFng.jpg",
+        "2992",
       ],
       要塞閣螳螂: [
         "https://i.imgur.com/tkxXIdh.jpg",
         "https://i.imgur.com/qWjE1s3.jpg",
         "https://i.imgur.com/RJG4tfj.jpg",
+        "3002",
       ],
       嵐龍: [
         "https://i.imgur.com/nlc00BZ.jpg",
         "https://i.imgur.com/RIpa5lL.jpg",
         "https://i.imgur.com/t990ORR.jpg",
+        "1979",
       ],
       徹甲蟲: [
         "https://i.imgur.com/PAf5kGz.jpg",
         "https://i.imgur.com/tMQPNXG.jpg",
         "https://i.imgur.com/s6AmdGr.jpg",
+        "2857",
       ],
       煌黑龍: [
         "https://i.imgur.com/O5M84Hu.jpg",
         "https://i.imgur.com/uGtJSKC.jpg",
         "https://i.imgur.com/3M4XOn6.jpg",
+        "2879",
       ],
       恐暴龍: [
         "https://i.imgur.com/l2yVAsI.jpg",
         "https://i.imgur.com/NGKg2pH.jpg",
         "https://i.imgur.com/VzK7R9M.jpg",
+        "2871",
       ],
       怒食恐暴龍: [
         "https://i.imgur.com/7Bj548T.jpg",
         "https://i.imgur.com/APmCnrf.jpg",
         "https://i.imgur.com/apnEtjo.jpg",
+        "2872",
       ],
       黑狼鳥: [
         "https://i.imgur.com/kSRuURX.jpg",
         "https://i.imgur.com/ZmR0OWw.jpg",
         "https://i.imgur.com/qYIuzqh.jpg",
+        "1846",
       ],
       隻眼黑狼鳥: [
         "https://i.imgur.com/hIJID60.jpg",
         "https://i.imgur.com/ElE43px.jpg",
         "https://i.imgur.com/NT4XUi2.jpg",
         "https://i.imgur.com/uFlbV8w.jpg",
+        "2868",
       ],
       怪鳥: [
         "https://i.imgur.com/ORsm06i.jpg",
         "https://i.imgur.com/9X12yrx.jpg",
         "https://i.imgur.com/Ax6y1Ck.jpg",
+        "1840",
       ],
       熔岩龍: [
         "https://i.imgur.com/RHm2LNU.jpg",
         "https://i.imgur.com/BEEYNWk.jpg",
         "https://i.imgur.com/c9XqNyG.jpg",
+        "1965",
       ],
       崩龍: [
         "https://i.imgur.com/JBpTtzg.jpg",
         "https://i.imgur.com/qqyDSBr.jpg",
         "https://i.imgur.com/biUkNYb.jpg",
+        "2876",
       ],
       爆鎚龍: [
         "https://i.imgur.com/T6dBtHG.jpg",
         "https://i.imgur.com/avZ9fe1.jpg",
         "https://i.imgur.com/yGTAEfx.jpg",
         "https://i.imgur.com/wv7WAt1.jpg",
+        "1966",
       ],
       寶纏爆鎚龍: [
         "https://i.imgur.com/vDVjYez.jpg",
         "https://i.imgur.com/kdm4xP0.jpg",
-        "https://i.imgur.com/3f1myGr.jpg",
-        "https://i.imgur.com/3yhmGxd.jpg",
-        "https://i.imgur.com/f1nQG0v.jpg",
+        "https://i.imgur.com/n0o7fgz.jpg",
+        "https://i.imgur.com/EnNY22D.jpg",
+        "2869",
       ],
       白兔獸: [
         "https://i.imgur.com/Zb9fSIA.jpg",
         "https://i.imgur.com/FRkIFY9.jpg",
         "https://i.imgur.com/57IDXvh.jpg",
+        "1980",
       ],
       大雪主白兔獸: [
         "https://i.imgur.com/RiUhJOM.jpg",
         "https://i.imgur.com/a1bb6hQ.jpg",
         "https://i.imgur.com/5WedOWI.jpg",
         "https://i.imgur.com/T2ojfjb.jpg",
+        "2863",
       ],
       霞龍: [
         "https://i.imgur.com/eYcpzDs.jpg",
         "https://i.imgur.com/CeYJjEq.jpg",
         "https://i.imgur.com/48KlcIO.jpg",
+        "1967",
       ],
       骸龍: [
         "https://i.imgur.com/y1VQYLJ.jpg",
         "https://i.imgur.com/EkG3OnC.jpg",
         "https://i.imgur.com/pEkxfTe.jpg",
+        "2858",
       ],
       水龍: [
         "https://i.imgur.com/L6lHZ99.jpg",
         "https://i.imgur.com/E8HagC0.jpg",
         "https://i.imgur.com/rZ7BIQ9.jpg",
         "https://i.imgur.com/9e85M6F.jpg",
+        "1968",
       ],
       巨獸: [
         "https://i.imgur.com/BbtdqAX.jpg",
         "https://i.imgur.com/Xi4LIqE.jpg",
         "https://i.imgur.com/LAgnCAu.jpg",
+        "1831",
       ],
       銀嶺巨獸: [
         "https://i.imgur.com/VBmnckB.jpg",
         "https://i.imgur.com/v7tADMZ.jpg",
         "https://i.imgur.com/Eri1q72.jpg",
         "https://i.imgur.com/7kokS0a.jpg",
+        "2972",
       ],
       絞蛇龍: [
         "https://i.imgur.com/ey6IXgH.jpg",
         "https://i.imgur.com/mUUC1wq.jpg",
         "https://i.imgur.com/UeQZR9n.jpg",
         "https://i.imgur.com/sMuzUyx.jpg",
+        "1849",
       ],
       麒麟: [
         "https://i.imgur.com/Y99ig2H.jpg",
         "https://i.imgur.com/KJIW01g.jpg",
         "https://i.imgur.com/Qxb4Rgj.jpg",
+        "1969",
       ],
       鋼龍: [
         "https://i.imgur.com/Vjl46uA.jpg",
         "https://i.imgur.com/KiE2C7K.jpg",
         "https://i.imgur.com/E0EYpPa.jpg",
+        "1970",
       ],
-      鎧龍: [],
+      鎧龍: [
+        "https://i.imgur.com/OCYrwt8.jpg",
+        "https://i.imgur.com/xMs4gEZ.jpg",
+        "https://i.imgur.com/xMrOVcZ.jpg",
+        "https://i.imgur.com/2gU9C9b.jpg",
+        "2980",
+      ],
+      奇猿狐: [
+        "https://i.imgur.com/bVvHl78.jpg",
+        "https://i.imgur.com/Rpcft3Z.jpg",
+        "https://i.imgur.com/oo3xG2j.jpg",
+        "https://i.imgur.com/hnGHZOD.jpg",
+        "1850",
+      ],
+      重甲蟲: [
+        "https://i.imgur.com/ekjacRt.jpg",
+        "https://i.imgur.com/OdDIINZ.jpg",
+        "https://i.imgur.com/j9aCUGx.jpg",
+        "1971",
+      ],
+      毒怪鳥: [
+        "https://i.imgur.com/Eu4LDLq.jpg",
+        "https://i.imgur.com/8fHQFxI.jpg",
+        "https://i.imgur.com/xaOhMA1.jpg",
+        "1972",
+      ],
+      黑蝕龍: [
+        "https://i.imgur.com/0mGEbU4.jpg",
+        "https://i.imgur.com/CzUiACR.jpg",
+        "https://i.imgur.com/AwoeeL2.jpg",
+        "https://i.imgur.com/aE13m5V.jpg",
+        "2830",
+      ],
+      渾沌黑蝕龍: [
+        "https://i.imgur.com/AWnlfKU.jpg",
+        "https://i.imgur.com/KOODcCr.jpg",
+        "https://i.imgur.com/RKPdJnZ.jpg",
+        "2990",
+      ],
+      化鮫: [
+        "https://i.imgur.com/1Ij8B5X.jpg",
+        "https://i.imgur.com/YAeJG8I.jpg",
+        "https://i.imgur.com/poOlVBX.jpg",
+        "https://i.imgur.com/n4QI7WB.jpg",
+        "1851",
+      ],
+      天迴龍: [
+        "https://i.imgur.com/Ee37196.jpg",
+        "https://i.imgur.com/6mw4mnq.jpg",
+        "https://i.imgur.com/qUztQVX.jpg",
+        "2864",
+      ],
+      將軍蟹: ["1852"],
     };
 
   const TaskIf = () => {
@@ -702,7 +761,9 @@ function doPost(e) {
         case "白兔獸":
         //   return Re("大雪主白兔獸");
         case "巨獸":
-          //   return Re("銀嶺巨獸");
+        //   return Re("銀嶺巨獸");
+        case "黑蝕龍":
+          //   return Re("渾沌黑蝕龍");
           return item[0];
       }
     },
@@ -730,21 +791,12 @@ function doPost(e) {
           finalBox["value"] = value;
         };
 
-      if (
-        userMessage == call ||
-        userMessage == call_1 ||
-        userMessage == call_2 ||
-        userMessage == call_3
-      ) {
+      if ([call, call_1, call_2, call_3].some((item) => item == userMessage)) {
         formateBox("nothing", { type: "text", text: nothing });
         return finalBox;
       }
 
-      if (
-        userMessage == "調和表" ||
-        userMessage == "採集表" ||
-        userMessage == "魔物表"
-      ) {
+      if (["調和表", "採集表", "魔物表"].some((item) => item == userMessage)) {
         let table = (message) => {
             let Table = Object.keys(message);
             Table.unshift(`${userMessage}:`);
@@ -779,12 +831,20 @@ function doPost(e) {
 
       if (userMessage.indexOf("肉質") >= 0 && ThingIf(Succulent) !== false) {
         formateBox("meet", []);
-        ThingIf(Succulent).forEach((item) => {
-          finalBox["value"].push({
-            type: "image",
-            originalContentUrl: item,
-            previewImageUrl: item,
-          });
+        var _index = ThingIf(Succulent);
+        _index.forEach((item, index) => {
+          finalBox["value"].push(
+            index == _index.length - 1
+              ? {
+                  type: "text",
+                  text: `參考資料:\r\nhttp://wiki.mhxg.org/data/${item}.html`,
+                }
+              : {
+                  type: "image",
+                  originalContentUrl: item,
+                  previewImageUrl: item,
+                }
+          );
         });
         return finalBox;
       }
