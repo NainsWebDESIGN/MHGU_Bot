@@ -1,5 +1,6 @@
 - [Line Bot API 使用方式](https://ithelp.ithome.com.tw/articles/10198142)
 - [ReadMe 編輯方式](https://www.jianshu.com/p/9ab92efc286a)
+- [鹽酸文章](https://home.gamer.com.tw/creationDetail.php?sn=4361083)
 
 ---
 
