@@ -19,3 +19,4 @@
 - [低階版](https://reurl.cc/nE46L2)
 - [高階版 1](https://reurl.cc/3jpr7X)
 - [高階版 2](https://reurl.cc/MbL1OK)
+- [理想](https://reurl.cc/g0pm9Q)

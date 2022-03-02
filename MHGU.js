@@ -423,7 +423,7 @@ function doPost(e) {
       黃醃摩卡的壺:
         "醃摩卡的壺・黃:\r\n太陽草 + 醃摩卡的壺  註:怪力之種→怪力之種→怪力之種→回復藥\r\n落陽草 + 醃摩卡的壺  註:忍耐之種→忍耐之種→忍耐之種→回復藥\r\n火藥草 + 醃摩卡的壺  註:火藥草→火藥草→爆藥→火藥草\r\n藍香菇 + 醃摩卡的壺  註:增強劑→增強劑→增強劑→小石頭\r\n特產香菇 + 醃摩卡的壺  註:熟成香菇\r\n嚴選香菇 + 醃摩卡的壺  註:嚴選香菇→鬼松蘑→鬼松蘑→鬼松蘑\r\n仙人掌花 + 醃摩卡的壺  註:百花仙人掌\r\n電龍幼兒 + 醃摩卡的壺  註:醃電龍幼兒\r\n超毒菇 + 醃摩卡的壺  註:解毒草→漢方藥→秘藥→小石頭\r\n米蟲 + 醃摩卡的壺  註:米蟲→苦蟲→雷光蟲→苦蟲\r\n寒冷麥 + 醃摩卡的壺  註:頑固麵包→頑固麵包→頑固麵包→頑固麵包\r\n辣油 + 醃摩卡的壺  註:力量牛油→力量牛油→力量牛油→力量牛油\r\n乾乳瑪琳 + 醃摩卡的壺  註:猛牛奶油→猛牛奶油→猛牛奶油→猛牛奶油\r\n昆蟲死骸 + 醃摩卡的壺  註:昆蟲死骸→漢方藥→回復藥→小石頭\r\n不可回收垃圾 + 醃摩卡的壺  註:藥草→藥草→回復藥→小石頭",
     },
-    // 肉質 http://wiki.mhxg.org/data/1852.html
+    // 肉質 http://wiki.mhxg.org/data/2831.html
     // 圖片url https://www.ifreesite.com/upload/
     Succulent = {
       青熊獸: [
@@ -666,7 +666,27 @@ function doPost(e) {
         "https://i.imgur.com/FThLcn1.jpg",
         "https://i.imgur.com/C6cucda.jpg",
         "https://i.imgur.com/QOEYpDs.jpg",
+        "https://i.imgur.com/xQD3rM3.jpg",
+        "https://i.imgur.com/XWbGi3n.jpg",
         "2982",
+      ],
+      雷狼龍: [
+        "https://i.imgur.com/xQD3rM3.jpg",
+        "https://i.imgur.com/XWbGi3n.jpg",
+        "https://i.imgur.com/rggrpLo.jpg",
+        "https://i.imgur.com/ulEFVHe.jpg",
+        "1853",
+      ],
+      金雷公雷狼龍: [
+        "https://i.imgur.com/LQLt3xw.jpg",
+        "https://i.imgur.com/ZSVPsfA.jpg",
+        "2839",
+      ],
+      千刃龍: [
+        "https://i.imgur.com/8V1k6V2.jpg",
+        "https://i.imgur.com/t6q29R3.jpg",
+        "https://i.imgur.com/z03oAnl.jpg",
+        "2831",
       ],
     };
 
@@ -774,7 +794,11 @@ function doPost(e) {
         case "巨獸":
         //   return Re("銀嶺巨獸");
         case "黑蝕龍":
-          //   return Re("渾沌黑蝕龍");
+        //   return Re("渾沌黑蝕龍");
+        case "將軍蟹":
+        //   return Re("鎧裂將軍蟹");
+        case "雷狼龍":
+          //   return Re("金雷公雷狼龍");
           return item[0];
       }
     },
@@ -848,7 +872,7 @@ function doPost(e) {
             index == _index.length - 1
               ? {
                   type: "text",
-                  text: `參考資料:\r\nhttp://wiki.mhxg.org/data/${item}.html`,
+                  text: `註: 因一次只能發送五則訊息\r\n如圖片未完全(最後應為掉落物資訊)\r\n請至網站查詢\r\n參考資料:\r\nhttp://wiki.mhxg.org/data/${item}.html`,
                 }
               : {
                   type: "image",
