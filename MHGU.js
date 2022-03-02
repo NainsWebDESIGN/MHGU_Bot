@@ -656,7 +656,18 @@ function doPost(e) {
         "https://i.imgur.com/qUztQVX.jpg",
         "2864",
       ],
-      將軍蟹: ["1852"],
+      將軍蟹: [
+        "https://i.imgur.com/bgsVQbh.jpg",
+        "https://i.imgur.com/82vOs3W.jpg",
+        "https://i.imgur.com/mKSdbXJ.jpg",
+        "1852",
+      ],
+      鎧裂將軍蟹: [
+        "https://i.imgur.com/FThLcn1.jpg",
+        "https://i.imgur.com/C6cucda.jpg",
+        "https://i.imgur.com/QOEYpDs.jpg",
+        "2982",
+      ],
     };
 
   const TaskIf = () => {

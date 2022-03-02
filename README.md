@@ -22,3 +22,8 @@
    EX 黑蝕龍
    EX 黑蝕龍
    毒蛛
+
+控場片手配裝
+[低階版](https://reurl.cc/nE46L2)
+[高階版 1](https://reurl.cc/3jpr7X)
+[高階版 2](https://reurl.cc/MbL1OK)
