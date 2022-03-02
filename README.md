@@ -1,5 +1,5 @@
-[Line Bot API 使用方式](https://ithelp.ithome.com.tw/articles/10198142)
-[ReadMe 編輯方式](https://www.jianshu.com/p/9ab92efc286a)
+- [Line Bot API 使用方式](https://ithelp.ithome.com.tw/articles/10198142)
+- [ReadMe 編輯方式](https://www.jianshu.com/p/9ab92efc286a)
 
 ---
 
@@ -15,6 +15,6 @@
 
 控場片手配裝
 
-1. [低階版](https://reurl.cc/nE46L2)
-2. [高階版 1](https://reurl.cc/3jpr7X)
-3. [高階版 2](https://reurl.cc/MbL1OK)
+- [低階版](https://reurl.cc/nE46L2)
+- [高階版 1](https://reurl.cc/3jpr7X)
+- [高階版 2](https://reurl.cc/MbL1OK)
