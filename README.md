@@ -1,4 +1,5 @@
-[line bot API 使用方式](https://ithelp.ithome.com.tw/articles/10198142)
+[Line Bot API 使用方式](https://ithelp.ithome.com.tw/articles/10198142)
+[ReadMe 編輯方式](https://www.jianshu.com/p/9ab92efc286a)
 
 ---
 
