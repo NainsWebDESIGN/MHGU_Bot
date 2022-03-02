@@ -2,7 +2,7 @@
 
 // line bot API 使用方式 https://ithelp.ithome.com.tw/articles/10198142
 
-幻化 https://www.bilibili.com/video/BV1LV411n7oH/
+[幻化](https://www.bilibili.com/video/BV1LV411n7oH/)
 
 1. 遠程(粉) 02:30:
    泡狐龍頭盔
