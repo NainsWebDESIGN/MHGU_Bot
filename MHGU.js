@@ -688,6 +688,26 @@ function doPost(e) {
         "https://i.imgur.com/z03oAnl.jpg",
         "2831",
       ],
+      盾蟹: [
+        "https://i.imgur.com/W9Wtulq.jpg",
+        "https://i.imgur.com/l8mZs3c.jpg",
+        "https://i.imgur.com/A0qPN2d.jpg",
+        "1854",
+      ],
+      矛碎盾蟹: [
+        "https://i.imgur.com/SpzewjO.jpg",
+        "https://i.imgur.com/9YBnb8Q.jpg",
+        "https://i.imgur.com/3LB2QpJ.jpg",
+        "https://i.imgur.com/laZFuwJ.jpg",
+        "2836",
+      ],
+      泡狐龍: [
+        "https://i.imgur.com/qr47UP6.jpg",
+        "https://i.imgur.com/hADFJW7.jpg",
+        "https://i.imgur.com/5h8gldM.jpg",
+        "https://i.imgur.com/UkILqr8.jpg",
+        "1832",
+      ],
     };
 
   const TaskIf = () => {
@@ -798,7 +818,9 @@ function doPost(e) {
         case "將軍蟹":
         //   return Re("鎧裂將軍蟹");
         case "雷狼龍":
-          //   return Re("金雷公雷狼龍");
+        //   return Re("金雷公雷狼龍");
+        case "盾蟹":
+          //   return Re("矛碎盾蟹");
           return item[0];
       }
     },
