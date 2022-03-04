@@ -423,8 +423,9 @@ function doPost(e) {
       黃醃摩卡的壺:
         "醃摩卡的壺・黃:\r\n太陽草 + 醃摩卡的壺  註:怪力之種→怪力之種→怪力之種→回復藥\r\n落陽草 + 醃摩卡的壺  註:忍耐之種→忍耐之種→忍耐之種→回復藥\r\n火藥草 + 醃摩卡的壺  註:火藥草→火藥草→爆藥→火藥草\r\n藍香菇 + 醃摩卡的壺  註:增強劑→增強劑→增強劑→小石頭\r\n特產香菇 + 醃摩卡的壺  註:熟成香菇\r\n嚴選香菇 + 醃摩卡的壺  註:嚴選香菇→鬼松蘑→鬼松蘑→鬼松蘑\r\n仙人掌花 + 醃摩卡的壺  註:百花仙人掌\r\n電龍幼兒 + 醃摩卡的壺  註:醃電龍幼兒\r\n超毒菇 + 醃摩卡的壺  註:解毒草→漢方藥→秘藥→小石頭\r\n米蟲 + 醃摩卡的壺  註:米蟲→苦蟲→雷光蟲→苦蟲\r\n寒冷麥 + 醃摩卡的壺  註:頑固麵包→頑固麵包→頑固麵包→頑固麵包\r\n辣油 + 醃摩卡的壺  註:力量牛油→力量牛油→力量牛油→力量牛油\r\n乾乳瑪琳 + 醃摩卡的壺  註:猛牛奶油→猛牛奶油→猛牛奶油→猛牛奶油\r\n昆蟲死骸 + 醃摩卡的壺  註:昆蟲死骸→漢方藥→回復藥→小石頭\r\n不可回收垃圾 + 醃摩卡的壺  註:藥草→藥草→回復藥→小石頭",
     },
-    // 肉質 http://wiki.mhxg.org/data/2831.html
+    // 肉質 http://wiki.mhxg.org/data/1981.html
     // 圖片url https://www.ifreesite.com/upload/
+    // 毒猛龍缺最後一張圖
     Succulent = {
       青熊獸: [
         "https://i.imgur.com/Ihj51cE.jpg",
@@ -432,7 +433,7 @@ function doPost(e) {
         "https://i.imgur.com/mUDvAew.jpg",
         "1964",
       ],
-      紅兜青熊獸: [
+      紅兜: [
         "https://i.imgur.com/Wv1hVPE.jpg",
         "https://i.imgur.com/7Bt4IEp.jpg",
         "https://i.imgur.com/A0pmRVT.jpg",
@@ -501,7 +502,7 @@ function doPost(e) {
         "https://i.imgur.com/qYIuzqh.jpg",
         "1846",
       ],
-      隻眼黑狼鳥: [
+      隻眼: [
         "https://i.imgur.com/hIJID60.jpg",
         "https://i.imgur.com/ElE43px.jpg",
         "https://i.imgur.com/NT4XUi2.jpg",
@@ -533,7 +534,7 @@ function doPost(e) {
         "https://i.imgur.com/wv7WAt1.jpg",
         "1966",
       ],
-      寶纏爆鎚龍: [
+      寶纏: [
         "https://i.imgur.com/vDVjYez.jpg",
         "https://i.imgur.com/kdm4xP0.jpg",
         "https://i.imgur.com/n0o7fgz.jpg",
@@ -546,7 +547,7 @@ function doPost(e) {
         "https://i.imgur.com/57IDXvh.jpg",
         "1980",
       ],
-      大雪主白兔獸: [
+      大雪主: [
         "https://i.imgur.com/RiUhJOM.jpg",
         "https://i.imgur.com/a1bb6hQ.jpg",
         "https://i.imgur.com/5WedOWI.jpg",
@@ -578,7 +579,7 @@ function doPost(e) {
         "https://i.imgur.com/LAgnCAu.jpg",
         "1831",
       ],
-      銀嶺巨獸: [
+      銀嶺: [
         "https://i.imgur.com/VBmnckB.jpg",
         "https://i.imgur.com/v7tADMZ.jpg",
         "https://i.imgur.com/Eri1q72.jpg",
@@ -637,7 +638,7 @@ function doPost(e) {
         "https://i.imgur.com/aE13m5V.jpg",
         "2830",
       ],
-      渾沌黑蝕龍: [
+      渾沌: [
         "https://i.imgur.com/AWnlfKU.jpg",
         "https://i.imgur.com/KOODcCr.jpg",
         "https://i.imgur.com/RKPdJnZ.jpg",
@@ -662,7 +663,7 @@ function doPost(e) {
         "https://i.imgur.com/mKSdbXJ.jpg",
         "1852",
       ],
-      鎧裂將軍蟹: [
+      鎧裂: [
         "https://i.imgur.com/FThLcn1.jpg",
         "https://i.imgur.com/C6cucda.jpg",
         "https://i.imgur.com/QOEYpDs.jpg",
@@ -677,7 +678,7 @@ function doPost(e) {
         "https://i.imgur.com/ulEFVHe.jpg",
         "1853",
       ],
-      金雷公雷狼龍: [
+      金雷公: [
         "https://i.imgur.com/LQLt3xw.jpg",
         "https://i.imgur.com/ZSVPsfA.jpg",
         "2839",
@@ -694,7 +695,7 @@ function doPost(e) {
         "https://i.imgur.com/A0qPN2d.jpg",
         "1854",
       ],
-      矛碎盾蟹: [
+      矛碎: [
         "https://i.imgur.com/SpzewjO.jpg",
         "https://i.imgur.com/9YBnb8Q.jpg",
         "https://i.imgur.com/3LB2QpJ.jpg",
@@ -707,6 +708,75 @@ function doPost(e) {
         "https://i.imgur.com/5h8gldM.jpg",
         "https://i.imgur.com/UkILqr8.jpg",
         "1832",
+      ],
+      天眼: [
+        "https://i.imgur.com/VDe0DQ0.jpg",
+        "https://i.imgur.com/DlHr5z1.jpg",
+        "https://i.imgur.com/oTxYWqo.jpg",
+        "https://i.imgur.com/hOtH2UE.jpg",
+        "2973",
+      ],
+      角龍: [
+        "https://i.imgur.com/9xehP8c.jpg",
+        "https://i.imgur.com/5lzVpAL.jpg",
+        "https://i.imgur.com/Xje9qHa.jpg",
+        "2962",
+      ],
+      鏖魔: [
+        "https://i.imgur.com/tT4R0OP.jpg",
+        "https://i.imgur.com/Bjg3SGx.jpg",
+        "https://i.imgur.com/tYqGrNP.jpg",
+        "https://i.imgur.com/SghlQLy.jpg",
+        "2963",
+      ],
+      轟龍: [
+        "https://i.imgur.com/IKGUxtz.jpg",
+        "https://i.imgur.com/k2xcyjv.jpg",
+        "https://i.imgur.com/jfQNzKy.jpg",
+        "1855",
+      ],
+      荒鉤爪: [
+        "https://i.imgur.com/QfjxMbd.jpg",
+        "https://i.imgur.com/QaLsyum.jpg",
+        "https://i.imgur.com/zYjzbGM.jpg",
+        "https://i.imgur.com/ldYBhfZ.jpg",
+        "2840",
+      ],
+      斬龍: [
+        "https://i.imgur.com/xiofm4S.jpg",
+        "https://i.imgur.com/PxNtTBv.jpg",
+        "https://i.imgur.com/lQ5ghRX.jpg",
+        "https://i.imgur.com/juBfiz0.jpg",
+        "1829",
+      ],
+      燼滅刃: [
+        "https://i.imgur.com/zDesQxH.jpg",
+        "https://i.imgur.com/87y1WGo.jpg",
+        "2870",
+      ],
+      炎王龍: [
+        "https://i.imgur.com/MvMlZMS.jpg",
+        "https://i.imgur.com/bSXMcpi.jpg",
+        "https://i.imgur.com/fchbuxo.jpg",
+        "1973",
+      ],
+      鬼蛙: [
+        "https://i.imgur.com/Ab0OLZh.jpg",
+        "https://i.imgur.com/dXzIrk2.jpg",
+        "https://i.imgur.com/ucHeMNg.jpg",
+        "1856",
+      ],
+      岩穿: [
+        "https://i.imgur.com/CBZzqj0.jpg",
+        "https://i.imgur.com/mURV19g.jpg",
+        "https://i.imgur.com/bnfJxol.jpg",
+        "https://i.imgur.com/KVxkKfl.jpg",
+        "2837",
+      ],
+      毒猛龍: [
+        "https://i.imgur.com/Kx1EbKH.jpg",
+        "https://i.imgur.com/9KT6bKs.jpg",
+        "1981",
       ],
     };
 
@@ -799,28 +869,10 @@ function doPost(e) {
     repeat = (item) => {
       let Re = (_name) => (userMessage.indexOf(_name) >= 0 ? item[1] : item[0]);
       switch (item[0]) {
-        case "青熊獸":
-        //   return Re("紅兜青熊獸");
         case "閣螳螂":
         //   return Re("要塞閣螳螂");
         case "恐暴龍":
-        //   return Re("怒食恐暴龍");
-        case "黑狼鳥":
-        //   return Re("隻眼黑狼鳥");
-        case "爆鎚龍":
-        //   return Re("寶纏爆鎚龍");
-        case "白兔獸":
-        //   return Re("大雪主白兔獸");
-        case "巨獸":
-        //   return Re("銀嶺巨獸");
-        case "黑蝕龍":
-        //   return Re("渾沌黑蝕龍");
-        case "將軍蟹":
-        //   return Re("鎧裂將軍蟹");
-        case "雷狼龍":
-        //   return Re("金雷公雷狼龍");
-        case "盾蟹":
-          //   return Re("矛碎盾蟹");
+          //   return Re("怒食恐暴龍");
           return item[0];
       }
     },
