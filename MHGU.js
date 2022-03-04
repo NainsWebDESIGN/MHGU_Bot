@@ -425,7 +425,6 @@ function doPost(e) {
     },
     // 肉質 http://wiki.mhxg.org/data/1981.html
     // 圖片url https://www.ifreesite.com/upload/
-    // 毒猛龍缺最後一張圖
     Succulent = {
       青熊獸: [
         "https://i.imgur.com/Ihj51cE.jpg",
@@ -776,6 +775,7 @@ function doPost(e) {
       毒猛龍: [
         "https://i.imgur.com/Kx1EbKH.jpg",
         "https://i.imgur.com/9KT6bKs.jpg",
+        "https://i.imgur.com/d5YB81d.jpg",
         "1981",
       ],
     };
