@@ -25,3 +25,8 @@
 | 外觀                                    | [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/tempest-kermes_welkin-kermes/) |          [遠程](http://mhxx-soubigazou.info/equipment/rare8armor/scholars-x/)           |      [遠程](http://mhxx-soubigazou.info/equipment/rare9armor/gore-x/)      | [遠程](http://mhxx-soubigazou.info/equipment/rare10armor/silver-sol-xr/) |    [遠程](http://mhxx-soubigazou.info/equipment/rare10armor/akantor-xr/)    |                      |
 | [重弩進階版](https://reurl.cc/RjEY7g)   |               [Ｓ・ソルＺキャップ](http://wiki.mhxg.org/ida/293004.html)                |                [艶戦流【胸当て】](http://wiki.mhxg.org/ida/295257.html)                 |           [ラギアＸガード](http://wiki.mhxg.org/ida/287978.html)           |        [Ｓ・ソル XR コート](http://wiki.mhxg.org/ida/295228.html)        |         [アカムト XR チキル](http://wiki.mhxg.org/ida/295230.html)          | 射法 4、連擊 3、3 洞 |
 | 外觀                                    |         [遠程](http://mhxx-soubigazou.info/equipment/rare10armor/silver-sol-z/)         | [遠程](http://mhxx-soubigazou.info/equipment/rare10armor/battle-borealis_battle-glyph/) |   [遠程](http://mhxx-soubigazou.info/equipment/rare9armor/lagiacrus-x/)    | [遠程](http://mhxx-soubigazou.info/equipment/rare10armor/silver-sol-xr/) |    [遠程](http://mhxx-soubigazou.info/equipment/rare10armor/akantor-xr/)    |                      |
+
+---
+
+SSIS-246
+SSIS-326
