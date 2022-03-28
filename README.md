@@ -22,7 +22,31 @@
 
 ---
 
-[配裝器](https://mhxx.wiki-db.com/sim/)
+- 目前已登錄護石列表
+
+```javascript
+
+,0,痛撃,6,攻撃,7
+,3,達人,6
+,0,鈍器,5,乗り,10
+,1,窮地,4,龍属性攻撃,12
+,1,窮地,5,装填速度,2
+,1,窮地,4,剣術,5
+,3,窮地,4
+,3,窮地,3,龍気,1
+,3,窮地,1,減気攻撃,8
+,3,窮地,3,散弾強化,4
+,3,無心,5,気力回復,4
+,3,会心強化,3,溜め短縮,4
+,2,鈍器,4,真・燼滅刃,1
+,2,乗り,10,跳躍,6
+,2,鈍器,5
+,0,鈍器,6,攻撃,6
+,0,会心強化,4,狂撃耐性,7
+
+```
+
+- [配裝器](https://mhxx.wiki-db.com/sim/)
 
 | 類型                                  |                                           頭                                            |                                           身                                            |                                        手                                         |                                        腰                                         |                                        腳                                         |         護石         |
 | ------------------------------------- | :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :------------------: |
@@ -46,29 +70,3 @@
 | 外觀                                  |         [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/silver-sol-z/)         |          [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/gx-kushala/)          |      [近戰](http://mhxx-soubigazou.info/equipment/rare9armor/black-belt-x/)       |     [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/silver-sol-xr/)      |       [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/akantor-xr/)       |          ✘           |
 | [銀嶺片手版](https://reurl.cc/Go2ExW) |                 [凛戦流【鉢金】](http://wiki.mhxg.org/ida/295257.html)                  |                [レウス XR メイル](http://wiki.mhxg.org/ida/295251.html)                 |             [Ｓ・ソルＺアーム](http://wiki.mhxg.org/ida/293004.html)              |          [Ｓ・ソル XR フォールド](http://wiki.mhxg.org/ida/295228.html)           |            [アカムト XR ケマル](http://wiki.mhxg.org/ida/295230.html)             |    痛撃:6 攻撃:7     |
 | 外觀                                  | [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/battle-borealis_battle-glyph/) |          [近戰](http://mhxx-soubigazou.info/equipment/rare9armor/rathalos-xr/)          |      [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/silver-sol-z/)      |     [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/silver-sol-xr/)      |       [近戰](http://mhxx-soubigazou.info/equipment/rare10armor/akantor-xr/)       |          ✘           |
-
----
-
-### 目前已登錄護石列表
-
-```javascript
-
-,0,痛撃,6,攻撃,7
-,3,達人,6
-,0,鈍器,5,乗り,10
-,1,窮地,4,龍属性攻撃,12
-,1,窮地,5,装填速度,2
-,1,窮地,4,剣術,5
-,3,窮地,4
-,3,窮地,3,龍気,1
-,3,窮地,1,減気攻撃,8
-,3,窮地,3,散弾強化,4
-,3,無心,5,気力回復,4
-,3,会心強化,3,溜め短縮,4
-,2,鈍器,4,真・燼滅刃,1
-,2,乗り,10,跳躍,6
-,2,鈍器,5
-,0,鈍器,6,攻撃,6
-,0,会心強化,4,狂撃耐性,7
-
-```
