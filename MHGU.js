@@ -20,7 +20,7 @@ function doPost(e) {
     call_2 = "MHGU",
     call_3 = "mhgu",
     nothing =
-      "獵人小幫手(GU)聽到了~\r\n如想查詢:\r\n\r\n1. 呼喚我的名字\r\n獵人小幫手\r\n獵幫\r\nMHGU(大小寫皆可)\r\n\r\n2. 關鍵任務\r\n請於字句中加入「上位、下位或是集會所」、「關鍵」及「X星」字樣，如:下位的關鍵任務來個5星\r\n註: 幾星可用中文也可用數字\r\n\r\n3. 採集分布:\r\n請於字句中加入「採集物品名稱」及「採集」字樣\r\n註: 如欲查詢可查詢事項請輸入「採集表」(精算道具不統計)\r\n\r\n4. 調和表:\r\n請於字句中加入「調和物品名稱」及「調和」字樣\r\n註: 如欲查詢可查詢事項請輸入「調和表」\r\n\r\n5. 肉質表:\r\n請於字句中加入「魔物名稱」及「肉質」字樣\r\n註: 包含掉落物(更新未完全)\r\n如欲查詢可查詢事項請輸入「魔物表」\r\n\r\n6. XX與GU中英文對照表:\r\n(1) https://w.atwiki.jp/mhfotw/pages/2387.html\r\n(2) https://home.gamer.com.tw/creationDetail.php?sn=4690469\r\n\r\n7. 獵貓培育:\r\n(1) https://forum.gamer.com.tw/C.php?bsn=5786&snA=147851\r\n(2) https://bbs.nga.cn/read.php?tid=22076619&rand=273\r\n8. 精算道具繳納攻略\r\nhttps://forum.gamer.com.tw/Co.php?bsn=05786&sn=824087",
+      "獵人小幫手(GU)聽到了~\r\n如想查詢:\r\n\r\n1. 呼喚我的名字\r\n獵人小幫手\r\n獵幫\r\nMHGU(大小寫皆可)\r\n\r\n2. 關鍵任務\r\n請於字句中加入「上位、下位或是集會所」、「關鍵」及「X星」字樣，如:下位的關鍵任務來個5星\r\n註: 幾星可用中文也可用數字\r\n\r\n3. 採集分布:\r\n請於字句中加入「採集物品名稱」及「採集」字樣\r\n註: 如欲查詢可查詢事項請輸入「採集表」(精算道具不統計)\r\n\r\n4. 調和表:\r\n請於字句中加入「調和物品名稱」及「調和」字樣\r\n註: 如欲查詢可查詢事項請輸入「調和表」\r\n\r\n5. 肉質表:\r\n請於字句中加入「魔物名稱」及「肉質」字樣\r\n註: 包含掉落物(更新未完全)\r\n如欲查詢可查詢事項請輸入「魔物表」\r\n\r\n6. XX與GU中英文對照表:\r\n(1) https://w.atwiki.jp/mhfotw/pages/2387.html\r\n(2) https://home.gamer.com.tw/creationDetail.php?sn=4690469\r\n\r\n7. 獵貓培育:\r\n(1) https://forum.gamer.com.tw/C.php?bsn=5786&snA=147851\r\n(2) https://bbs.nga.cn/read.php?tid=22076619&rand=273\r\n\r\n8. 精算道具繳納攻略\r\nhttps://forum.gamer.com.tw/Co.php?bsn=05786&sn=824087\r\n\r\n9. 計算會心期望值\r\n請於字句中加入「會心期望值」及「您的會心率」字樣\r\n註: 中間加入空格(如有超會心則將「會心期望值」改為「超會心期望值」, 殘忍會心亦同)",
     pushSystem = (obj) => {
       let box = [];
       Object.keys(obj).forEach((item) => {
@@ -32,34 +32,34 @@ function doPost(e) {
     };
   // 關鍵任務
   const Task = {
-      下位: {
-        一星: "村1星:\r\n1.古代森林特产紫萁\r\n2.古代森林\r\n3.讨伐跳狗龙群\r\n4.猫妹妹的讨伐狗龙委托\r\n緊急.跳跃亡命徒",
-        二星: "村2星:\r\n1.闹腾的硬甲龙\r\n2.逐渐逼近的盾蟹包围网\r\n3.狩猎黄速龙王\r\n4.穿游在大地中的怪物\r\n緊急.吓唬鬼面猎人\r\n註:須先到訪各村落",
-        三星: "村3星:\r\n1.沙漠上的用餐礼仪\r\n2.潜伏沙中的巨大螃蟹\r\n3.古代森林的大怪鸟\r\n4.\r\n註:須先完成2及3\r\n5.强袭而来的孤岛水流\r\n註:須先完成4\r\n6.追猎毒怪鸟\r\n註:須先完成4\r\n緊急.幻惑魔术师",
-        四星: "村4星:\r\n1.激战！雌火龙\r\n2.绞蛇龙起舞演奏\r\n3.红煌流星\r\n4.恐怖沼泽怪谈！\r\n5.想要欣赏将军镰蟹\r\n緊急.黑色灾祸",
-        五星: "村5星:\r\n1.浑身喷烟的王者\r\n2.威胁！火山中的铁锤！\r\n3.大海之王海龙！\r\n4.翡翠闪电\r\n註:須先完成卡卡特村3星狩獵電龍\r\n5.雄伟巨兽\r\n註:須先完成波凱村3星狩獵巨獸\r\n6.随风漂浮的淡红色泡狐\r\n註:須先完成結雲村3星狩獵泡狐龍\r\n緊急.灼热之刃",
-        六星: "村6星:\r\n1.身披黑甲的龙\r\n2.不应进入的地盘\r\n3.轰龙\r\n4.千刃来袭\r\n5.刚拳爆破！碎龙！\r\n緊急.白丝 斗技场 单挑~！",
-      },
-      上位: {
-        七星: "村7星:\r\n1.再次品尝珍馐穿甲虫\r\n2.商贩仇敌——白速龙王\r\n3.追逐挚友的土砂龙\r\n註:須先完成1及2\r\n4.彗星碎片在哪里\r\n註:須先完成3\r\n5.毒怪鸟利用计划\r\n註:須先完成3\r\n6.啊呜！鬼蛙\r\n註:須先完成3\r\n7.栖息于溪流的水兽\r\n註:須先完成4~6\r\n8.无人山岭中的神奇石块\r\n註:須先完成7\r\n9.这才是真正的大名排场？\r\n緊急.在原生林筑巢的蜘蛛。",
-        八星: "村8星:\r\n1.飞翔于山岭间的雌火龙。\r\n2.在被吃前干掉它！\r\n3.本以为是巨大的岩石……？\r\n4.强化龙识船！【迅龙篇】\r\n註:須先完成1~3\r\n5.强化龙识船！【水龙篇】\r\n註:須先完成1~3\r\n6.强化龙识船！【熔岩龙篇】\r\n註:須先完成1~3\r\n7.卟噜——！变形冰鲨！\r\n註:須先完成4~6\r\n8.对懒虫就该用爆锤龙呵斥！\r\n註:須先完成4~6\r\n緊急.现身于彗星前的凯龙。",
-        九星: "村9星:\r\n1.无人山岭的火龙。\r\n2.犯人就是你，雷狼龙。\r\n3.称霸冰海的王者。\r\n4.巨兽，再次来袭！\r\n註:須先完成1~3\r\n5.电龙，再次来袭！\r\n註:須先完成1~3\r\n6.泡狐龙，再次来袭！\r\n註:須先完成1~3\r\n7.斩龙，再次来袭！\r\n註:須先完成1~3\r\n8.被染成漆黑的山岭\r\n註:須先完成4~7\r\n9.强化龙识船！【冰牙龙篇】\r\n註:須先完成8\r\nn緊急.赤色的灾祸彗星，为之颤栗吧",
-        十星: "村10星:\r\n1.千刃暴动\r\n2.死战！角龙\r\n3.沙上咆哮的金狮子\r\n4.我的灵魂需要炸裂\r\n5.吞食万象之物\r\n6.轮回岁月归来吧\r\n緊急.狱炎霸王\r\n註:須先完成1~6且HR9以上\r\n緊急.崩塌吧神明之座、天威之榻\r\n註:須先完成1~6且HR9以上\r\n緊急.怨叹的骸骨\r\n註:須先完成1~6且HR9以上\r\n緊急.岚龙天翔\r\n註:須先完成1~6且HR9以上\r\n緊急.散发黑光之神\r\n註:須先完成所有緊急任務",
-      },
-      集會所: {
-        一星: "集會1星:\r\n1.狩獵鬼蛙\r\n2.在古代森林遭竊!\r\n3.打倒大怪鳥!\r\n4.雪後白兔獸\r\n5.狩獵水獸!\r\n緊急.雪山的主人--雪獅子王",
-        二星: "集會2星:\r\n1.沙漠裡的餐桌禮儀\r\n2.狩獵絞蛇龍\r\n3.追尋失蹤的黑狼\r\n4.捕獲研究樣本的作戰\r\n5.女王降臨\r\n6.躲避夜鳥的鱗粉\r\n緊急.雷之反逆者",
-        三星: "集會3星:\r\n1.穿著黑衣的龍\r\n2.千刃 來襲\r\n3.激憤的巨獸\r\n4.映照在月夜裡的泡沫之華\r\n5.天空和陸地的領域!\r\n6.大刀.斬龍\r\n緊急.雙頭之骸",
-        四星: "集會4星:\r\n1.狩獵喜歡惡作劇的奇猿狐吧!\r\n2.與美味的遭遇\r\n3.鐵壁般的大名蟹\r\n4.令人困擾的怪鳥和毒怪鳥\r\n緊急.溪流的水龍",
-        五星: "集會5星:\r\n1.充滿知性?狩獵夜鳥\r\n2.絞蛇龍跟著節奏跳舞\r\n3.狩獵冰鮫鯊的委託\r\n4.黑狼鳥的洗禮\r\n5.熔岩龍出現!\r\n緊急.妖豔舞蹈\r\n緊急.不動山神",
-        六星: "集會6星:\r\n1.超級無敵讚的電龍頭\r\n2.危險至極的晚餐\r\n3.棲息於火海的龍!\r\n4.出陣!地底火山的決鬥!\r\n5.為了尾錘龍敲響銅鑼\r\n緊急.千刃龍",
-        七星: "集會7星:\r\n1.四方聚集回歸\r\n2.熱戀暴露!?龍與龍的幽會\r\n3.白與琉璃的圓舞曲\r\n4.冰寒鐵甲\r\n5.爆碎拳炸裂!\r\n6.錘與刀的激烈對決\r\n緊急.地獄之妖星\r\n緊急.你的身手真有如傳聞嗎?\r\n註:需移動至飛行船接取任務",
-        G1: "集會G1:\r\n1.啄啄啄! 再啄啄啄!\r\n2.被搶走的就要追回來\r\n3.來自沙中的驚喜\r\n4.賭上王之威信的戰鬥\r\n5.水獸們的紛爭\r\n緊急.滿身泥濘的商人氣魄!",
-        G2: "集會G2:\r\n1.無人山嶺的綠之女王\r\n2.潛伏於沙漠水面的陰影\r\n3.桃毛獸王的蘑菇試吃會\r\n4.研究影蜘蛛的生態\r\n5.翻滾再起身又再次栽倒\r\n6.岩石自己動起來了\r\n緊急.巨大龍的侵略",
-        G3: "集會G3:\r\n1.哈囉!無人山嶺!\r\n2.好熱好熱的沙漠\r\n3.騎士與密林之夢\r\n4.冰牙龍!\r\n5.冰海的優質冰\r\n6.鎧龍的威脅\r\n緊急.劃破天際的凶星",
-        G4: "集會G4:\r\n1.沙上可見勇猛雙角\r\n2.狩獵恐暴龍\r\n3.追趕轟龍的軌跡\r\n4.來自雪山的SOS\r\n5.斬鐵之劍 強固之鎧\r\n註:須先完成1~4\r\n6.矛與錘不相容\r\n註:須先完成1~4\r\n緊急.蠢動廢城",
-      },
+    下位: {
+      一星: "村1星:\r\n1.古代森林特产紫萁\r\n2.古代森林\r\n3.讨伐跳狗龙群\r\n4.猫妹妹的讨伐狗龙委托\r\n緊急.跳跃亡命徒",
+      二星: "村2星:\r\n1.闹腾的硬甲龙\r\n2.逐渐逼近的盾蟹包围网\r\n3.狩猎黄速龙王\r\n4.穿游在大地中的怪物\r\n緊急.吓唬鬼面猎人\r\n註:須先到訪各村落",
+      三星: "村3星:\r\n1.沙漠上的用餐礼仪\r\n2.潜伏沙中的巨大螃蟹\r\n3.古代森林的大怪鸟\r\n4.\r\n註:須先完成2及3\r\n5.强袭而来的孤岛水流\r\n註:須先完成4\r\n6.追猎毒怪鸟\r\n註:須先完成4\r\n緊急.幻惑魔术师",
+      四星: "村4星:\r\n1.激战！雌火龙\r\n2.绞蛇龙起舞演奏\r\n3.红煌流星\r\n4.恐怖沼泽怪谈！\r\n5.想要欣赏将军镰蟹\r\n緊急.黑色灾祸",
+      五星: "村5星:\r\n1.浑身喷烟的王者\r\n2.威胁！火山中的铁锤！\r\n3.大海之王海龙！\r\n4.翡翠闪电\r\n註:須先完成卡卡特村3星狩獵電龍\r\n5.雄伟巨兽\r\n註:須先完成波凱村3星狩獵巨獸\r\n6.随风漂浮的淡红色泡狐\r\n註:須先完成結雲村3星狩獵泡狐龍\r\n緊急.灼热之刃",
+      六星: "村6星:\r\n1.身披黑甲的龙\r\n2.不应进入的地盘\r\n3.轰龙\r\n4.千刃来袭\r\n5.刚拳爆破！碎龙！\r\n緊急.白丝 斗技场 单挑~！",
     },
+    上位: {
+      七星: "村7星:\r\n1.再次品尝珍馐穿甲虫\r\n2.商贩仇敌——白速龙王\r\n3.追逐挚友的土砂龙\r\n註:須先完成1及2\r\n4.彗星碎片在哪里\r\n註:須先完成3\r\n5.毒怪鸟利用计划\r\n註:須先完成3\r\n6.啊呜！鬼蛙\r\n註:須先完成3\r\n7.栖息于溪流的水兽\r\n註:須先完成4~6\r\n8.无人山岭中的神奇石块\r\n註:須先完成7\r\n9.这才是真正的大名排场？\r\n緊急.在原生林筑巢的蜘蛛。",
+      八星: "村8星:\r\n1.飞翔于山岭间的雌火龙。\r\n2.在被吃前干掉它！\r\n3.本以为是巨大的岩石……？\r\n4.强化龙识船！【迅龙篇】\r\n註:須先完成1~3\r\n5.强化龙识船！【水龙篇】\r\n註:須先完成1~3\r\n6.强化龙识船！【熔岩龙篇】\r\n註:須先完成1~3\r\n7.卟噜——！变形冰鲨！\r\n註:須先完成4~6\r\n8.对懒虫就该用爆锤龙呵斥！\r\n註:須先完成4~6\r\n緊急.现身于彗星前的凯龙。",
+      九星: "村9星:\r\n1.无人山岭的火龙。\r\n2.犯人就是你，雷狼龙。\r\n3.称霸冰海的王者。\r\n4.巨兽，再次来袭！\r\n註:須先完成1~3\r\n5.电龙，再次来袭！\r\n註:須先完成1~3\r\n6.泡狐龙，再次来袭！\r\n註:須先完成1~3\r\n7.斩龙，再次来袭！\r\n註:須先完成1~3\r\n8.被染成漆黑的山岭\r\n註:須先完成4~7\r\n9.强化龙识船！【冰牙龙篇】\r\n註:須先完成8\r\nn緊急.赤色的灾祸彗星，为之颤栗吧",
+      十星: "村10星:\r\n1.千刃暴动\r\n2.死战！角龙\r\n3.沙上咆哮的金狮子\r\n4.我的灵魂需要炸裂\r\n5.吞食万象之物\r\n6.轮回岁月归来吧\r\n緊急.狱炎霸王\r\n註:須先完成1~6且HR9以上\r\n緊急.崩塌吧神明之座、天威之榻\r\n註:須先完成1~6且HR9以上\r\n緊急.怨叹的骸骨\r\n註:須先完成1~6且HR9以上\r\n緊急.岚龙天翔\r\n註:須先完成1~6且HR9以上\r\n緊急.散发黑光之神\r\n註:須先完成所有緊急任務",
+    },
+    集會所: {
+      一星: "集會1星:\r\n1.狩獵鬼蛙\r\n2.在古代森林遭竊!\r\n3.打倒大怪鳥!\r\n4.雪後白兔獸\r\n5.狩獵水獸!\r\n緊急.雪山的主人--雪獅子王",
+      二星: "集會2星:\r\n1.沙漠裡的餐桌禮儀\r\n2.狩獵絞蛇龍\r\n3.追尋失蹤的黑狼\r\n4.捕獲研究樣本的作戰\r\n5.女王降臨\r\n6.躲避夜鳥的鱗粉\r\n緊急.雷之反逆者",
+      三星: "集會3星:\r\n1.穿著黑衣的龍\r\n2.千刃 來襲\r\n3.激憤的巨獸\r\n4.映照在月夜裡的泡沫之華\r\n5.天空和陸地的領域!\r\n6.大刀.斬龍\r\n緊急.雙頭之骸",
+      四星: "集會4星:\r\n1.狩獵喜歡惡作劇的奇猿狐吧!\r\n2.與美味的遭遇\r\n3.鐵壁般的大名蟹\r\n4.令人困擾的怪鳥和毒怪鳥\r\n緊急.溪流的水龍",
+      五星: "集會5星:\r\n1.充滿知性?狩獵夜鳥\r\n2.絞蛇龍跟著節奏跳舞\r\n3.狩獵冰鮫鯊的委託\r\n4.黑狼鳥的洗禮\r\n5.熔岩龍出現!\r\n緊急.妖豔舞蹈\r\n緊急.不動山神",
+      六星: "集會6星:\r\n1.超級無敵讚的電龍頭\r\n2.危險至極的晚餐\r\n3.棲息於火海的龍!\r\n4.出陣!地底火山的決鬥!\r\n5.為了尾錘龍敲響銅鑼\r\n緊急.千刃龍",
+      七星: "集會7星:\r\n1.四方聚集回歸\r\n2.熱戀暴露!?龍與龍的幽會\r\n3.白與琉璃的圓舞曲\r\n4.冰寒鐵甲\r\n5.爆碎拳炸裂!\r\n6.錘與刀的激烈對決\r\n緊急.地獄之妖星\r\n緊急.你的身手真有如傳聞嗎?\r\n註:需移動至飛行船接取任務",
+      G1: "集會G1:\r\n1.啄啄啄! 再啄啄啄!\r\n2.被搶走的就要追回來\r\n3.來自沙中的驚喜\r\n4.賭上王之威信的戰鬥\r\n5.水獸們的紛爭\r\n緊急.滿身泥濘的商人氣魄!",
+      G2: "集會G2:\r\n1.無人山嶺的綠之女王\r\n2.潛伏於沙漠水面的陰影\r\n3.桃毛獸王的蘑菇試吃會\r\n4.研究影蜘蛛的生態\r\n5.翻滾再起身又再次栽倒\r\n6.岩石自己動起來了\r\n緊急.巨大龍的侵略",
+      G3: "集會G3:\r\n1.哈囉!無人山嶺!\r\n2.好熱好熱的沙漠\r\n3.騎士與密林之夢\r\n4.冰牙龍!\r\n5.冰海的優質冰\r\n6.鎧龍的威脅\r\n緊急.劃破天際的凶星",
+      G4: "集會G4:\r\n1.沙上可見勇猛雙角\r\n2.狩獵恐暴龍\r\n3.追趕轟龍的軌跡\r\n4.來自雪山的SOS\r\n5.斬鐵之劍 強固之鎧\r\n註:須先完成1~4\r\n6.矛與錘不相容\r\n註:須先完成1~4\r\n緊急.蠢動廢城",
+    },
+  },
     /*
           素材 參考: http://wiki.mhxg.org/data/2112.html (document.body.innerText)
       
@@ -781,91 +781,91 @@ function doPost(e) {
     };
 
   const TaskIf = () => {
-      let level = [];
-      let box = pushSystem(Task);
-      if (box.length !== 1) {
-        return false;
+    let level = [];
+    let box = pushSystem(Task);
+    if (box.length !== 1) {
+      return false;
+    }
+    let levelBox =
+      box[0] == "集會所"
+        ? [
+          "1星",
+          "2星",
+          "3星",
+          "4星",
+          "5星",
+          "6星",
+          "7星",
+          "一星",
+          "二星",
+          "三星",
+          "四星",
+          "五星",
+          "六星",
+          "七星",
+          "G1",
+          "G2",
+          "G3",
+          "G4",
+        ]
+        : [
+          "1星",
+          "2星",
+          "3星",
+          "4星",
+          "5星",
+          "6星",
+          "7星",
+          "8星",
+          "9星",
+          "10星",
+          "一星",
+          "二星",
+          "三星",
+          "四星",
+          "五星",
+          "六星",
+          "七星",
+          "八星",
+          "九星",
+          "十星",
+        ];
+    levelBox.forEach((item) => {
+      if (userMessage.indexOf(item) >= 0) {
+        level.push(item);
       }
-      let levelBox =
-        box[0] == "集會所"
-          ? [
-              "1星",
-              "2星",
-              "3星",
-              "4星",
-              "5星",
-              "6星",
-              "7星",
-              "一星",
-              "二星",
-              "三星",
-              "四星",
-              "五星",
-              "六星",
-              "七星",
-              "G1",
-              "G2",
-              "G3",
-              "G4",
-            ]
-          : [
-              "1星",
-              "2星",
-              "3星",
-              "4星",
-              "5星",
-              "6星",
-              "7星",
-              "8星",
-              "9星",
-              "10星",
-              "一星",
-              "二星",
-              "三星",
-              "四星",
-              "五星",
-              "六星",
-              "七星",
-              "八星",
-              "九星",
-              "十星",
-            ];
-      levelBox.forEach((item) => {
-        if (userMessage.indexOf(item) >= 0) {
-          level.push(item);
-        }
-      });
-      if (level.length !== 1) {
-        return false;
-      }
-      let trans = {
-        "1星": "一星",
-        "2星": "二星",
-        "3星": "三星",
-        "4星": "四星",
-        "5星": "五星",
-        "6星": "六星",
-        "7星": "七星",
-        "8星": "八星",
-        "9星": "九星",
-        "10星": "十星",
-        一星: "一星",
-        二星: "二星",
-        三星: "三星",
-        四星: "四星",
-        五星: "五星",
-        六星: "六星",
-        七星: "七星",
-        八星: "八星",
-        九星: "九星",
-        十星: "十星",
-        G1: "G1",
-        G2: "G2",
-        G3: "G3",
-        G4: "G4",
-      };
-      return Task[box[0]][trans[level]];
-    },
+    });
+    if (level.length !== 1) {
+      return false;
+    }
+    let trans = {
+      "1星": "一星",
+      "2星": "二星",
+      "3星": "三星",
+      "4星": "四星",
+      "5星": "五星",
+      "6星": "六星",
+      "7星": "七星",
+      "8星": "八星",
+      "9星": "九星",
+      "10星": "十星",
+      一星: "一星",
+      二星: "二星",
+      三星: "三星",
+      四星: "四星",
+      五星: "五星",
+      六星: "六星",
+      七星: "七星",
+      八星: "八星",
+      九星: "九星",
+      十星: "十星",
+      G1: "G1",
+      G2: "G2",
+      G3: "G3",
+      G4: "G4",
+    };
+    return Task[box[0]][trans[level]];
+  },
     repeat = (item) => {
       let Re = (_name) => (userMessage.indexOf(_name) >= 0 ? item[1] : item[0]);
       switch (item[0]) {
@@ -894,70 +894,100 @@ function doPost(e) {
     };
 
   let MessageObj = () => {
-      let finalBox = {},
-        formateBox = (key, value) => {
-          finalBox["key"] = key;
-          finalBox["value"] = value;
+    let finalBox = {},
+      formateBox = (key, value) => {
+        finalBox["key"] = key;
+        finalBox["value"] = value;
+      };
+
+    if ([call, call_1, call_2, call_3].some((item) => item == userMessage)) {
+      formateBox("nothing", { type: "text", text: nothing });
+      return finalBox;
+    }
+
+    if (["調和表", "採集表", "魔物表"].some((item) => item == userMessage)) {
+      let table = (message) => {
+        let Table = Object.keys(message);
+        Table.unshift(`${userMessage}:`);
+        return Table;
+      },
+        message = {
+          調和表: Reconcile,
+          採集表: Material,
+          魔物表: Succulent,
         };
+      formateBox("message", {
+        type: "text",
+        text: table(message[userMessage]).join("\r\n"),
+      });
+      return finalBox;
+    }
 
-      if ([call, call_1, call_2, call_3].some((item) => item == userMessage)) {
-        formateBox("nothing", { type: "text", text: nothing });
-        return finalBox;
+    if (userMessage.indexOf("會心期望值") >= 0) {
+      if (userMessage.length > 10) return;
+      let $obj = userMessage.split(" ");
+      if ($obj.length !== 2) return;
+      let final, indexof, heart;
+      if (userMessage.indexOf("殘忍會心") >= 0) {
+        let box = {
+          "45": 1.028125,
+          "40": 1.025,
+          "35": 1.021875,
+          "30": 1.01875,
+          "25": 1.015625,
+          "20": 1.0125,
+          "15": 1.009375,
+          "10": 1.00625,
+          "5": 1.003125,
+          "0": 1
+        }
+        indexof = true;
+        final = box[$obj[1]];
+      } else {
+        heart = (userMessage.indexOf("超會心") >= 0) ? 1.4 : 1.25,
+          two = Number($obj[1]) / 100;
+          indexof = false;
+        final = (two * heart) + (1 - two);
       }
+      formateBox("會心", { type: "text", text: `${(heart == 1.4) ? "有超" : (heart == 1.25) ? "無超" : "殘忍"}會心，且會心率${(indexof == true) ? "-" : ""}${$obj[1]}時\r\n您的期望值為: ${final} !` });
+      return finalBox;
+    }
 
-      if (["調和表", "採集表", "魔物表"].some((item) => item == userMessage)) {
-        let table = (message) => {
-            let Table = Object.keys(message);
-            Table.unshift(`${userMessage}:`);
-            return Table;
-          },
-          message = {
-            調和表: Reconcile,
-            採集表: Material,
-            魔物表: Succulent,
-          };
-        formateBox("message", {
-          type: "text",
-          text: table(message[userMessage]).join("\r\n"),
-        });
-        return finalBox;
-      }
+    if (userMessage.indexOf("關鍵") >= 0 && TaskIf() !== false) {
+      formateBox("關鍵", { type: "text", text: TaskIf() });
+      return finalBox;
+    }
 
-      if (userMessage.indexOf("關鍵") >= 0 && TaskIf() !== false) {
-        formateBox("關鍵", { type: "text", text: TaskIf() });
-        return finalBox;
-      }
+    if (userMessage.indexOf("採集") >= 0 && ThingIf(Material) !== false) {
+      formateBox("採集", { type: "text", text: ThingIf(Material) });
+      return finalBox;
+    }
 
-      if (userMessage.indexOf("採集") >= 0 && ThingIf(Material) !== false) {
-        formateBox("採集", { type: "text", text: ThingIf(Material) });
-        return finalBox;
-      }
+    if (userMessage.indexOf("調和") >= 0 && ThingIf(Reconcile) !== false) {
+      formateBox("調和", { type: "text", text: ThingIf(Reconcile) });
+      return finalBox;
+    }
 
-      if (userMessage.indexOf("調和") >= 0 && ThingIf(Reconcile) !== false) {
-        formateBox("調和", { type: "text", text: ThingIf(Reconcile) });
-        return finalBox;
-      }
-
-      if (userMessage.indexOf("肉質") >= 0 && ThingIf(Succulent) !== false) {
-        formateBox("meet", []);
-        var _index = ThingIf(Succulent);
-        _index.forEach((item, index) => {
-          finalBox["value"].push(
-            index == _index.length - 1
-              ? {
-                  type: "text",
-                  text: `註: 因一次只能發送五則訊息\r\n如圖片未完全(最後應為掉落物資訊)\r\n請至網站查詢\r\n參考資料:\r\nhttp://wiki.mhxg.org/data/${item}.html`,
-                }
-              : {
-                  type: "image",
-                  originalContentUrl: item,
-                  previewImageUrl: item,
-                }
-          );
-        });
-        return finalBox;
-      }
-    },
+    if (userMessage.indexOf("肉質") >= 0 && ThingIf(Succulent) !== false) {
+      formateBox("meet", []);
+      var _index = ThingIf(Succulent);
+      _index.forEach((item, index) => {
+        finalBox["value"].push(
+          index == _index.length - 1
+            ? {
+              type: "text",
+              text: `註: 因一次只能發送五則訊息\r\n如圖片未完全(最後應為掉落物資訊)\r\n請至網站查詢\r\n參考資料:\r\nhttp://wiki.mhxg.org/data/${item}.html`,
+            }
+            : {
+              type: "image",
+              originalContentUrl: item,
+              previewImageUrl: item,
+            }
+        );
+      });
+      return finalBox;
+    }
+  },
     ImageObj = (name) => {
       let Image = {
         塵魔: "https://i.imgur.com/j8JSwSt.jpg",
@@ -979,6 +1009,8 @@ function doPost(e) {
         想練銃槍: "https://i.imgur.com/WPCWaVN.jpg",
         想練雙刀: "https://i.imgur.com/92SapU8.jpg",
         說好的打怪呢: "https://i.imgur.com/GEsYBpL.jpg",
+        殘忍會心效益: "https://i.imgur.com/oVU0NBc.jpg",
+        裏會心效益: "https://i.imgur.com/oVU0NBc.jpg"
       };
 
       return {
@@ -1012,6 +1044,8 @@ function doPost(e) {
         "想練銃槍",
         "想練雙刀",
         "說好的打怪呢",
+        "殘忍會心效益",
+        "裏會心效益"
       ].forEach((item) => {
         if (userMessage.indexOf(item) >= 0) {
           box.push(item);
