@@ -643,7 +643,7 @@ function doPost(e) {
         "https://i.imgur.com/RKPdJnZ.jpg",
         "2990",
       ],
-      化鮫: [
+      冰鮫鯊: [
         "https://i.imgur.com/1Ij8B5X.jpg",
         "https://i.imgur.com/YAeJG8I.jpg",
         "https://i.imgur.com/poOlVBX.jpg",
@@ -772,12 +772,51 @@ function doPost(e) {
         "https://i.imgur.com/KVxkKfl.jpg",
         "2837",
       ],
-      毒猛龍: [
+      毒猛龍王: [
         "https://i.imgur.com/Kx1EbKH.jpg",
         "https://i.imgur.com/9KT6bKs.jpg",
         "https://i.imgur.com/d5YB81d.jpg",
         "1981",
       ],
+      沙龍: [
+        "https://i.imgur.com/4cY9AfT.jpg",
+        "https://i.imgur.com/29sBpPZ.jpg",
+        "https://i.imgur.com/eodUcM8.jpg",
+        "1974"
+      ],
+      冰猛龍王:[
+        "https://i.imgur.com/SDsADUf.jpg",
+        "https://i.imgur.com/sOfszum.jpg",
+        "https://i.imgur.com/pjB0by9.jpg",
+        "2989"
+      ],
+      痺猛龍王:[
+        "https://i.imgur.com/4BfyJ6U.jpg",
+        "https://i.imgur.com/dcufk3K.jpg",
+        "https://i.imgur.com/xVAMdCo.jpg",
+        "1983"
+      ],
+      野豬王:[
+        "https://i.imgur.com/OlOIYMz.jpg",
+        "https://i.imgur.com/y7G73Il.jpg",
+        "https://i.imgur.com/vfkN4al.jpg",
+        "1975"
+      ],
+      跳狗龍王:[
+        "https://i.imgur.com/1xuwStu.jpg",
+        "https://i.imgur.com/Ngn1viD.jpg",
+        "https://i.imgur.com/bm6EDPI.jpg",
+        "1836"
+      ],
+      迅猛龍王:[
+        "https://i.imgur.com/IT0Hq2B.jpg",
+        "https://i.imgur.com/q5EMOLY.jpg",
+        "https://i.imgur.com/W5hZbaD.jpg",
+        "1984"
+      ],
+      雪獅子:[
+        "1857"
+      ]
     };
 
   const TaskIf = () => {
@@ -946,7 +985,7 @@ function doPost(e) {
       } else {
         heart = (userMessage.indexOf("超會心") >= 0) ? 1.4 : 1.25,
           two = Number($obj[1]) / 100;
-          indexof = false;
+        indexof = false;
         final = (two * heart) + (1 - two);
       }
       formateBox("會心", { type: "text", text: `${(heart == 1.4) ? "有超" : (heart == 1.25) ? "無超" : "殘忍"}會心，且會心率${(indexof == true) ? "-" : ""}${$obj[1]}時\r\n您的期望值為: ${final} !` });
