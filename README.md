@@ -142,3 +142,4 @@
 
 [角龍重弩改良無視肉質版](https://reurl.cc/LpR11L)
 [角龍重弩改良看肉質高期望版](https://reurl.cc/KpN6kq)
+[遠程全會心無超會心版](https://reurl.cc/3jvjnj)
