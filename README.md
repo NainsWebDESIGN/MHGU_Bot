@@ -136,3 +136,8 @@
 | 外觀                                  |            [近戰](http://mhxx-soubigazou.info/equipment/rare8armor/chaos-x/)            |           [遠程](http://mhxx-soubigazou.info/equipment/rare9armor/gx-storge/)           |       [遠程](http://mhxx-soubigazou.info/equipment/rare10armor/kushala-xr/)       |      [遠程](http://mhxx-soubigazou.info/equipment/rare8armor/hermitaur-xr/)       |        [遠程](http://mhxx-soubigazou.info/equipment/rare9armor/gx-storge/)        |              ✔              |
 | [神島輕弩版](https://reurl.cc/nEao28) |                  [増弾のピアス](http://wiki.mhxg.org/ida/232740.html)                   |               [GX フィリアレジスト](http://wiki.mhxg.org/ida/295224.html)               |             [GX フィリアガード](http://wiki.mhxg.org/ida/295224.html)             |             [ザザミ XR コート](http://wiki.mhxg.org/ida/290502.html)              |           [ダークメタルＸフット](http://wiki.mhxg.org/ida/293626.html)            |   特殊攻擊 6、劍術 5、S 3   |
 | 外觀                                  |        [共通](http://mhxx-soubigazou.info/equipment/rare7armor/barrage-earring/)        |           [遠程](http://mhxx-soubigazou.info/equipment/rare9armor/gx-storge/)           |        [遠程](http://mhxx-soubigazou.info/equipment/rare9armor/gx-storge/)        |      [遠程](http://mhxx-soubigazou.info/equipment/rare8armor/hermitaur-xr/)       |      [遠程](http://mhxx-soubigazou.info/equipment/rare8armor/dark-metal-x/)       |              ✘              |
+
+---
+
+[角龍重弩改良無視肉質版](https://reurl.cc/LpR11L)
+[角龍重弩改良看肉質高期望版](https://reurl.cc/KpN6kq)
