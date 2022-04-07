@@ -432,7 +432,7 @@ function doPost(e) {
         "https://i.imgur.com/mUDvAew.jpg",
         "1964",
       ],
-      紅兜: [
+      紅盔: [
         "https://i.imgur.com/Wv1hVPE.jpg",
         "https://i.imgur.com/7Bt4IEp.jpg",
         "https://i.imgur.com/A0pmRVT.jpg",
@@ -501,7 +501,7 @@ function doPost(e) {
         "https://i.imgur.com/qYIuzqh.jpg",
         "1846",
       ],
-      隻眼: [
+      獨眼: [
         "https://i.imgur.com/hIJID60.jpg",
         "https://i.imgur.com/ElE43px.jpg",
         "https://i.imgur.com/NT4XUi2.jpg",
@@ -656,7 +656,7 @@ function doPost(e) {
         "https://i.imgur.com/qUztQVX.jpg",
         "2864",
       ],
-      將軍蟹: [
+      鐮蟹: [
         "https://i.imgur.com/bgsVQbh.jpg",
         "https://i.imgur.com/82vOs3W.jpg",
         "https://i.imgur.com/mKSdbXJ.jpg",
@@ -815,7 +815,24 @@ function doPost(e) {
         "1984"
       ],
       雪獅子:[
+        "https://i.imgur.com/TdWMcgH.jpg",
+        "https://i.imgur.com/2LZnMuc.jpg",
+        "https://i.imgur.com/aXYAfLa.jpg",
         "1857"
+      ],
+      尾槌龍:[
+        "https://i.imgur.com/poPAH8v.jpg",
+        "https://i.imgur.com/qy3bw18.jpg",
+        "https://i.imgur.com/Lorwo9Z.jpg",
+        "https://i.imgur.com/u5viMU5.jpg",
+        "1976"
+      ],
+      迅龍:[
+        "https://i.imgur.com/sBr7XQc.jpg",
+        "https://i.imgur.com/29LmLSx.jpg",
+        "https://i.imgur.com/9CridYx.jpg",
+        "https://i.imgur.com/KTR9NfB.jpg",
+        "1839"
       ]
     };
 
