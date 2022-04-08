@@ -20,7 +20,7 @@ function doPost(e) {
     call_2 = "MHGU",
     call_3 = "mhgu",
     nothing =
-      "獵人小幫手(GU)聽到了~\r\n如想查詢:\r\n\r\n1. 呼喚我的名字\r\n獵人小幫手\r\n獵幫\r\nMHGU(大小寫皆可)\r\n\r\n2. 關鍵任務\r\n請於字句中加入「上位、下位或是集會所」、「關鍵」及「X星」字樣，如:下位的關鍵任務來個5星\r\n註: 幾星可用中文也可用數字\r\n\r\n3. 採集分布:\r\n請於字句中加入「採集物品名稱」及「採集」字樣\r\n註: 如欲查詢可查詢事項請輸入「採集表」(精算道具不統計)\r\n\r\n4. 調和表:\r\n請於字句中加入「調和物品名稱」及「調和」字樣\r\n註: 如欲查詢可查詢事項請輸入「調和表」\r\n\r\n5. 肉質表:\r\n請於字句中加入「魔物名稱」及「肉質」字樣\r\n註: 包含掉落物(更新未完全)\r\n如欲查詢可查詢事項請輸入「魔物表」\r\n(小型魔物則顯示第一隻的目錄，例:雷光蟲)\r\n\r\n6. XX與GU中英文對照表:\r\n(1) https://w.atwiki.jp/mhfotw/pages/2387.html\r\n(2) https://home.gamer.com.tw/creationDetail.php?sn=4690469\r\n\r\n7. 獵貓培育:\r\n(1) https://forum.gamer.com.tw/C.php?bsn=5786&snA=147851\r\n(2) https://bbs.nga.cn/read.php?tid=22076619&rand=273\r\n\r\n8. 精算道具繳納攻略\r\nhttps://forum.gamer.com.tw/Co.php?bsn=05786&sn=824087\r\n\r\n9. 計算會心期望值\r\n請於字句中加入「會心期望值」及「您的會心率」字樣\r\n註: 中間加入空格(如有超會心則將「會心期望值」改為「超會心期望值」, 殘忍會心亦同)",
+      "獵人小幫手(GU)聽到了~\r\n如想查詢:\r\n\r\n1. 呼喚我的名字\r\n獵人小幫手\r\n獵幫\r\nMHGU(大小寫皆可)\r\n\r\n2. 關鍵任務\r\n請於字句中加入「上位、下位或是集會所」、「關鍵」及「X星」字樣，如:下位的關鍵任務來個5星\r\n註: 幾星可用中文也可用數字\r\n\r\n3. 採集分布:\r\n請於字句中加入「採集物品名稱」及「採集」字樣\r\n註: 如欲查詢可查詢事項請輸入「採集表」(精算道具不統計)\r\n\r\n4. 調和表:\r\n請於字句中加入「調和物品名稱」及「調和」字樣\r\n註: 如欲查詢可查詢事項請輸入「調和表」\r\n\r\n5. 肉質表:\r\n請於字句中加入「魔物名稱」及「肉質」字樣\r\n註: 包含掉落物(更新未完全)\r\n如欲查詢可查詢事項請輸入「魔物表」\r\n(小型魔物則顯示第一隻的目錄，例:雷光蟲)\r\n\r\n6. 計算會心期望值\r\n請於字句中加入「會心期望值」及「您的會心率」字樣\r\n註: 中間加入空格(如有超會心則將「會心期望值」改為「超會心期望值」, 殘忍會心亦同)\r\n例: 超會心期望值 70\r\n\r\n7. 萬用文章及網站:\r\n(1) 鹽酸文章(首頁):\r\nhttps://reurl.cc/mGaZDl\r\n(2) 白wiki(首頁):\r\nhttp://wiki.mhxg.org/\r\n(3) 配裝器:\r\nhttps://reurl.cc/mGaZDl\r\n(4) 配裝器教學文章(鹽酸):\r\nhttps://reurl.cc/yQ2m6D\r\n(5) 配裝器教學影片(單身狗):\r\nhttps://reurl.cc/Go7XKW\r\n(6) 中英文對照表(台wiki):\r\nhttps://reurl.cc/12D0mY\r\n(7) 中英文對照表(鹽酸):\r\nhttps://reurl.cc/vermme\r\n(8) 獵貓培育(鹽酸):\r\nhttps://reurl.cc/3jG339\r\n(9) 獵貓培育(精玩):\r\nhttps://reurl.cc/5Ge8MM\r\n(10) 精算道具繳納攻略(大王):\r\nhttps://reurl.cc/Qj0W4q",
     pushSystem = (obj) => {
       let box = [];
       Object.keys(obj).forEach((item) => {
@@ -423,7 +423,7 @@ function doPost(e) {
       黃醃摩卡的壺:
         "醃摩卡的壺・黃:\r\n太陽草 + 醃摩卡的壺  註:怪力之種→怪力之種→怪力之種→回復藥\r\n落陽草 + 醃摩卡的壺  註:忍耐之種→忍耐之種→忍耐之種→回復藥\r\n火藥草 + 醃摩卡的壺  註:火藥草→火藥草→爆藥→火藥草\r\n藍香菇 + 醃摩卡的壺  註:增強劑→增強劑→增強劑→小石頭\r\n特產香菇 + 醃摩卡的壺  註:熟成香菇\r\n嚴選香菇 + 醃摩卡的壺  註:嚴選香菇→鬼松蘑→鬼松蘑→鬼松蘑\r\n仙人掌花 + 醃摩卡的壺  註:百花仙人掌\r\n電龍幼兒 + 醃摩卡的壺  註:醃電龍幼兒\r\n超毒菇 + 醃摩卡的壺  註:解毒草→漢方藥→秘藥→小石頭\r\n米蟲 + 醃摩卡的壺  註:米蟲→苦蟲→雷光蟲→苦蟲\r\n寒冷麥 + 醃摩卡的壺  註:頑固麵包→頑固麵包→頑固麵包→頑固麵包\r\n辣油 + 醃摩卡的壺  註:力量牛油→力量牛油→力量牛油→力量牛油\r\n乾乳瑪琳 + 醃摩卡的壺  註:猛牛奶油→猛牛奶油→猛牛奶油→猛牛奶油\r\n昆蟲死骸 + 醃摩卡的壺  註:昆蟲死骸→漢方藥→回復藥→小石頭\r\n不可回收垃圾 + 醃摩卡的壺  註:藥草→藥草→回復藥→小石頭",
     },
-    // 肉質 http://wiki.mhxg.org/data/1981.html
+    // 肉質 http://wiki.mhxg.org/data/2966.html
     // 圖片url https://www.ifreesite.com/upload/
     Succulent = {
       青熊獸: [
@@ -891,15 +891,58 @@ function doPost(e) {
         "https://i.imgur.com/TVhuv9q.jpg",
         "1860",
       ],
-      冰牙龍: ["2966"],
-      土砂龍: ["2965"],
-      夜鳥: ["1845"],
-      朧隠: ["2981"],
-      黑龍: ["2993"],
-      紅龍: ["2994"],
-      祖龍: ["2995"],
-      金獅子: ["2873"],
-      激昂金獅子: ["2874"],
+      冰牙龍: [
+        "https://i.imgur.com/ajrjooD.jpg",
+        "https://i.imgur.com/kOkCMcS.jpg",
+        "https://i.imgur.com/nGMg8k0.jpg",
+        "https://i.imgur.com/KBhAPXJ.jpg",
+        "2966",
+      ],
+      土砂龍: [
+        "https://i.imgur.com/KPVPXgN.jpg",
+        "https://i.imgur.com/E0Mt2rs.jpg",
+        "https://i.imgur.com/K9XQpxI.jpg",
+        "2965",
+      ],
+      夜鳥: [
+        "https://i.imgur.com/HlYfcJK.jpg",
+        "https://i.imgur.com/7Ls35Hv.jpg",
+        "https://i.imgur.com/J9Pw5Wr.jpg",
+        "https://i.imgur.com/KIor22O.jpg",
+        "1845",
+      ],
+      朧隠: [
+        "https://i.imgur.com/TjK8GqQ.jpg",
+        "https://i.imgur.com/siVrRy2.jpg",
+        "https://i.imgur.com/RN0ulT0.jpg",
+        "https://i.imgur.com/SdBhtJP.jpg",
+        "2981",
+      ],
+      黑龍: [
+        "https://i.imgur.com/Zk6GSvj.jpg",
+        "https://i.imgur.com/mZ7wjt1.jpg",
+        "https://i.imgur.com/RzhD0yr.jpg",
+        "2993",
+      ],
+      紅龍: [
+        "https://i.imgur.com/XCsV8xC.jpg",
+        "https://i.imgur.com/xT4unKx.jpg",
+        "https://i.imgur.com/PrYju5g.jpg",
+        "2994",
+      ],
+      祖龍: [
+        "https://i.imgur.com/1Y51BQl.jpg",
+        "https://i.imgur.com/HZd0oAS.jpg",
+        "https://i.imgur.com/Ec0Dfy7.jpg",
+        "2995",
+      ],
+      金獅子: [
+        "https://i.imgur.com/07ybAvS.jpg",
+        "https://i.imgur.com/cpe6JRQ.jpg",
+        "https://i.imgur.com/11ZN1lP.jpg",
+        "2873",
+      ],
+      激昂金獅子: ["https://i.imgur.com/vLRkqTn.jpg", "2874"],
       電龍: ["1830"],
       青電主: ["2974"],
       老山龍: ["2977"],
@@ -1003,15 +1046,12 @@ function doPost(e) {
     },
     repeat = (item) => {
       let Re = (_name) => (userMessage.indexOf(_name) >= 0 ? item[1] : item[0]);
+      if (item.length == 1) return item[0];
       switch (item[0]) {
         case "閣螳螂":
-        //   return Re("要塞閣螳螂");
         case "恐暴龍":
-        //   return Re("怒食恐暴龍");
         case "碎龍":
-        //   return Re("猛爆碎龍");
         case "金獅子":
-          //   return Re("激昂金獅子");
           return item[0];
       }
     },
@@ -1024,7 +1064,8 @@ function doPost(e) {
           return item[box[0]];
         default:
           if (item == Succulent) {
-            return item[repeat(box)];
+            // return item[repeat(box)];
+            return item[box[0]];
           }
           let finalStr = [];
           box.forEach((value) => finalStr.push(item[value]));
