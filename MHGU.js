@@ -423,7 +423,7 @@ function doPost(e) {
       黃醃摩卡的壺:
         "醃摩卡的壺・黃:\r\n太陽草 + 醃摩卡的壺  註:怪力之種→怪力之種→怪力之種→回復藥\r\n落陽草 + 醃摩卡的壺  註:忍耐之種→忍耐之種→忍耐之種→回復藥\r\n火藥草 + 醃摩卡的壺  註:火藥草→火藥草→爆藥→火藥草\r\n藍香菇 + 醃摩卡的壺  註:增強劑→增強劑→增強劑→小石頭\r\n特產香菇 + 醃摩卡的壺  註:熟成香菇\r\n嚴選香菇 + 醃摩卡的壺  註:嚴選香菇→鬼松蘑→鬼松蘑→鬼松蘑\r\n仙人掌花 + 醃摩卡的壺  註:百花仙人掌\r\n電龍幼兒 + 醃摩卡的壺  註:醃電龍幼兒\r\n超毒菇 + 醃摩卡的壺  註:解毒草→漢方藥→秘藥→小石頭\r\n米蟲 + 醃摩卡的壺  註:米蟲→苦蟲→雷光蟲→苦蟲\r\n寒冷麥 + 醃摩卡的壺  註:頑固麵包→頑固麵包→頑固麵包→頑固麵包\r\n辣油 + 醃摩卡的壺  註:力量牛油→力量牛油→力量牛油→力量牛油\r\n乾乳瑪琳 + 醃摩卡的壺  註:猛牛奶油→猛牛奶油→猛牛奶油→猛牛奶油\r\n昆蟲死骸 + 醃摩卡的壺  註:昆蟲死骸→漢方藥→回復藥→小石頭\r\n不可回收垃圾 + 醃摩卡的壺  註:藥草→藥草→回復藥→小石頭",
     },
-    // 肉質 http://wiki.mhxg.org/data/2966.html
+    // 肉質 http://wiki.mhxg.org/data/1862.html
     // 圖片url https://www.ifreesite.com/upload/
     Succulent = {
       青熊獸: [
@@ -942,13 +942,52 @@ function doPost(e) {
         "https://i.imgur.com/11ZN1lP.jpg",
         "2873",
       ],
-      激昂金獅子: ["https://i.imgur.com/vLRkqTn.jpg", "2874"],
-      電龍: ["1830"],
-      青電主: ["2974"],
-      老山龍: ["2977"],
-      海龍: ["1861"],
-      赤甲獸: ["1977"],
-      雌火龍: ["1862"],
+      激昂金獅子: [
+        "https://i.imgur.com/vLRkqTn.jpg",
+        "https://i.imgur.com/gmTpozH.jpg",
+        "https://i.imgur.com/I56gCM5.jpg",
+        "2874",
+      ],
+      電龍: [
+        "https://i.imgur.com/694BdJK.jpg",
+        "https://i.imgur.com/aUYMJds.jpg",
+        "https://i.imgur.com/5SCIhrt.jpg",
+        "https://i.imgur.com/WEDH8r4.jpg",
+        "1830",
+      ],
+      青電主: [
+        "https://i.imgur.com/M2yKgFy.jpg",
+        "https://i.imgur.com/iOJJiX4.jpg",
+        "https://i.imgur.com/5U41pwx.jpg",
+        "https://i.imgur.com/hZhOImI.jpg",
+        "2974",
+      ],
+      老山龍: [
+        "https://i.imgur.com/45yZ9Vh.jpg",
+        "https://i.imgur.com/Rf5vNH9.jpg",
+        "https://i.imgur.com/GieOP8S.jpg",
+        "2977",
+      ],
+      海龍: [
+        "https://i.imgur.com/Z17XlPU.jpg",
+        "https://i.imgur.com/8u6KZEd.jpg",
+        "https://i.imgur.com/0DHnFCq.jpg",
+        "https://i.imgur.com/naUYKDy.jpg",
+        "1861",
+      ],
+      赤甲獸: [
+        "https://i.imgur.com/UrPSRru.jpg",
+        "https://i.imgur.com/EX27PNq.jpg",
+        "https://i.imgur.com/yo9nUJW.jpg",
+        "1977",
+      ],
+      雌火龍: [
+        "https://i.imgur.com/rvkYdWx.jpg",
+        "https://i.imgur.com/op0wpkb.jpg",
+        "https://i.imgur.com/zydjJdo.jpg",
+        "https://i.imgur.com/Q3duPrl.jpg",
+        "1862",
+      ],
       紫毒姬: ["2834"],
       金火龍: ["2877"],
       雄火龍: ["1863"],
