@@ -20,7 +20,7 @@ function doPost(e) {
     call_2 = "MHGU",
     call_3 = "mhgu",
     nothing =
-      "獵人小幫手(GU)聽到了~\r\n如想查詢:\r\n\r\n1. 呼喚我的名字\r\n獵人小幫手\r\n獵幫\r\nMHGU(大小寫皆可)\r\n\r\n2. 關鍵任務\r\n請於字句中加入「上位、下位或是集會所」、「關鍵」及「X星」字樣，如:下位的關鍵任務來個5星\r\n註: 幾星可用中文也可用數字\r\n\r\n3. 採集分布:\r\n請於字句中加入「採集物品名稱」及「採集」字樣\r\n註: 如欲查詢可查詢事項請輸入「採集表」(精算道具不統計)\r\n\r\n4. 調和表:\r\n請於字句中加入「調和物品名稱」及「調和」字樣\r\n註: 如欲查詢可查詢事項請輸入「調和表」\r\n\r\n5. 肉質表:\r\n請於字句中加入「魔物名稱」及「肉質」字樣\r\n註: 包含掉落物(更新未完全)\r\n如欲查詢可查詢事項請輸入「魔物表」\r\n(小型魔物則顯示第一隻的目錄，例:雷光蟲)\r\n\r\n6. 計算會心期望值\r\n請於字句中加入「會心期望值」及「您的會心率」字樣\r\n註: 中間加入空格(如有超會心則將「會心期望值」改為「超會心期望值」, 殘忍會心亦同)\r\n例: 超會心期望值 70\r\n\r\n7. 萬用文章及網站:\r\n(1) 鹽酸文章(首頁):\r\nhttps://reurl.cc/mGaZDl\r\n(2) 白wiki(首頁):\r\nhttp://wiki.mhxg.org/\r\n(3) 配裝器:\r\nhttps://reurl.cc/8W1laR\r\n(4) 配裝器教學文章(鹽酸):\r\nhttps://reurl.cc/yQ2m6D\r\n(5) 配裝器教學影片(單身狗):\r\nhttps://reurl.cc/Go7XKW\r\n(6) 中英文對照表(台wiki):\r\nhttps://reurl.cc/12D0mY\r\n(7) 中英文對照表(鹽酸):\r\nhttps://reurl.cc/vermme\r\n(8) 獵貓培育(鹽酸):\r\nhttps://reurl.cc/3jG339\r\n(9) 獵貓培育(精玩):\r\nhttps://reurl.cc/5Ge8MM\r\n(10) 精算道具繳納攻略(大王):\r\nhttps://reurl.cc/Qj0W4q\r\n(11) 近戰動作值:\r\nhttps://reurl.cc/7e6pXD",
+      "獵人小幫手(GU)聽到了~\r\n如想查詢:\r\n\r\n1. 呼喚我的名字\r\n獵人小幫手\r\n獵幫\r\nMHGU(大小寫皆可)\r\n\r\n2. 關鍵任務\r\n請於字句中加入「上位、下位或是集會所」、「關鍵」及「X星」字樣，如:下位的關鍵任務來個5星\r\n註: 幾星可用中文也可用數字\r\n\r\n3. 採集分布:\r\n請於字句中加入「採集物品名稱」及「採集」字樣\r\n註: 如欲查詢可查詢事項請輸入「採集表」(精算道具不統計)\r\n\r\n4. 調和表:\r\n請於字句中加入「調和物品名稱」及「調和」字樣\r\n註: 如欲查詢可查詢事項請輸入「調和表」\r\n\r\n5. 肉質表:\r\n請於字句中加入「魔物名稱」及「肉質」字樣\r\n註: 包含掉落物\r\n如欲查詢可查詢事項請輸入「魔物表」\r\n(小型魔物則顯示第一隻的目錄，例:雷光蟲)\r\n\r\n6. 計算會心期望值\r\n請於字句中加入「會心期望值」及「您的會心率」字樣\r\n註: 中間加入空格(如有超會心則將「會心期望值」改為「超會心期望值」, 殘忍會心亦同)\r\n例: 超會心期望值 70\r\n\r\n7. 萬用文章及網站:\r\n(1) 鹽酸文章(首頁):\r\nhttps://reurl.cc/mGaZDl\r\n(2) 白wiki(首頁):\r\nhttp://wiki.mhxg.org/\r\n(3) 配裝器:\r\nhttps://reurl.cc/8W1laR\r\n(4) 配裝器教學文章(鹽酸):\r\nhttps://reurl.cc/yQ2m6D\r\n(5) 配裝器教學影片(單身狗):\r\nhttps://reurl.cc/Go7XKW\r\n(6) 中英文對照表(台wiki):\r\nhttps://reurl.cc/12D0mY\r\n(7) 中英文對照表(鹽酸):\r\nhttps://reurl.cc/vermme\r\n(8) 獵貓培育(鹽酸):\r\nhttps://reurl.cc/3jG339\r\n(9) 獵貓培育(精玩):\r\nhttps://reurl.cc/5Ge8MM\r\n(10) 精算道具繳納攻略(大王):\r\nhttps://reurl.cc/Qj0W4q\r\n(11) 近戰動作值:\r\nhttps://reurl.cc/7e6pXD",
     pushSystem = (obj) => {
       let box = [];
       Object.keys(obj).forEach((item) => {
@@ -1009,9 +1009,27 @@ function doPost(e) {
         "https://i.imgur.com/o4eZOI6.jpg",
         "1863",
       ],
-      黑炎王: ["2833"],
-      銀火龍: ["2878"],
-      水獸: ["1978"],
+      黑炎王: [
+        "https://i.imgur.com/O5EQLtd.jpg",
+        "https://i.imgur.com/9yehD2A.jpg",
+        "https://i.imgur.com/hppvUhm.jpg",
+        "https://i.imgur.com/wntHZUt.jpg",
+        "2833",
+      ],
+      銀火龍: [
+        "https://i.imgur.com/Ha2vmvz.jpg",
+        "https://i.imgur.com/4URKKJt.jpg",
+        "https://i.imgur.com/LcCMZdQ.jpg",
+        "https://i.imgur.com/IZ6RLrm.jpg",
+        "2878",
+      ],
+      水獸: [
+        "https://i.imgur.com/HTl6w86.jpg",
+        "https://i.imgur.com/P7wLQ75.jpg",
+        "https://i.imgur.com/01UrQEU.jpg",
+        "https://i.imgur.com/3cBaRXS.jpg",
+        "1978",
+      ],
       小型魔物: ["2848"],
     };
 
