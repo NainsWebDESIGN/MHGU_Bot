@@ -2,6 +2,7 @@
 - [ReadMe 編輯方式](https://www.jianshu.com/p/9ab92efc286a)
 - [鹽酸文章](https://home.gamer.com.tw/creationDetail.php?sn=4361083)
 - [白 Wiki](http://wiki.mhxg.org/)
+- [幽魂直播](https://space.bilibili.com/563682)
 
 ---
 
