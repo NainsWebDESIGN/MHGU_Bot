@@ -51,7 +51,7 @@ function doPost(e) {
         二星: "集會2星:\r\n1.沙漠裡的餐桌禮儀\r\n2.狩獵絞蛇龍\r\n3.追尋失蹤的黑狼\r\n4.捕獲研究樣本的作戰\r\n5.女王降臨\r\n6.躲避夜鳥的鱗粉\r\n緊急.雷之反逆者",
         三星: "集會3星:\r\n1.穿著黑衣的龍\r\n2.千刃 來襲\r\n3.激憤的巨獸\r\n4.映照在月夜裡的泡沫之華\r\n5.天空和陸地的領域!\r\n6.大刀.斬龍\r\n緊急.雙頭之骸",
         四星: "集會4星:\r\n1.狩獵喜歡惡作劇的奇猿狐吧!\r\n2.與美味的遭遇\r\n3.鐵壁般的大名蟹\r\n4.令人困擾的怪鳥和毒怪鳥\r\n緊急.溪流的水龍",
-        五星: "集會5星:\r\n1.充滿知性?狩獵夜鳥\r\n2.絞蛇龍跟著節奏跳舞\r\n3.狩獵冰鮫鯊的委託\r\n4.黑狼鳥的洗禮\r\n5.熔岩龍出現!\r\n緊急.妖豔舞蹈\r\n緊急.不動山神",
+        五星: "集會5星:\r\n1.充滿知性?狩獵夜鳥\r\n2.絞蛇龍跟著節奏跳舞\r\n3.狩獵冰鮫鯊的委託\r\n4.黑狼鳥的洗禮\r\n5.溶岩龍出現!\r\n緊急.妖豔舞蹈\r\n緊急.不動山神",
         六星: "集會6星:\r\n1.超級無敵讚的電龍頭\r\n2.危險至極的晚餐\r\n3.棲息於火海的龍!\r\n4.出陣!地底火山的決鬥!\r\n5.為了尾錘龍敲響銅鑼\r\n緊急.千刃龍",
         七星: "集會7星:\r\n1.四方聚集回歸\r\n2.熱戀暴露!?龍與龍的幽會\r\n3.白與琉璃的圓舞曲\r\n4.冰寒鐵甲\r\n5.爆碎拳炸裂!\r\n6.錘與刀的激烈對決\r\n緊急.地獄之妖星\r\n緊急.你的身手真有如傳聞嗎?\r\n註:需移動至飛行船接取任務",
         G1: "集會G1:\r\n1.啄啄啄! 再啄啄啄!\r\n2.被搶走的就要追回來\r\n3.來自沙中的驚喜\r\n4.賭上王之威信的戰鬥\r\n5.水獸們的紛爭\r\n緊急.滿身泥濘的商人氣魄!",
@@ -514,7 +514,14 @@ function doPost(e) {
         "https://i.imgur.com/Ax6y1Ck.jpg",
         "1840",
       ],
-      熔岩龍: [
+      岩龍: [
+        "https://i.imgur.com/KNf1ajS.jpg",
+        "https://i.imgur.com/wmXE27u.jpg",
+        "https://i.imgur.com/nylSBzZ.jpg",
+        "https://i.imgur.com/5PfT7Bv.jpg",
+        "2983",
+      ],
+      溶岩龍: [
         "https://i.imgur.com/RHm2LNU.jpg",
         "https://i.imgur.com/BEEYNWk.jpg",
         "https://i.imgur.com/c9XqNyG.jpg",
@@ -847,13 +854,6 @@ function doPost(e) {
         "https://i.imgur.com/CaeZVgs.jpg",
         "2979",
       ],
-      岩龍: [
-        "https://i.imgur.com/KNf1ajS.jpg",
-        "https://i.imgur.com/wmXE27u.jpg",
-        "https://i.imgur.com/nylSBzZ.jpg",
-        "https://i.imgur.com/5PfT7Bv.jpg",
-        "2983",
-      ],
       桃毛獸王: [
         "https://i.imgur.com/jfNSNx4.jpg",
         "https://i.imgur.com/6mFS3O4.jpg",
@@ -1131,6 +1131,8 @@ function doPost(e) {
           return Re("猛爆碎龍");
         case "金獅子":
           return Re("激昂金獅子");
+        case "岩龍":
+          return Re("溶岩龍");
       }
     },
     ThingIf = (item) => {
