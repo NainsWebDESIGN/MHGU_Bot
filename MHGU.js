@@ -477,12 +477,6 @@ function doPost(e) {
         "https://i.imgur.com/s6AmdGr.jpg",
         "2857",
       ],
-      煌黑龍: [
-        "https://i.imgur.com/O5M84Hu.jpg",
-        "https://i.imgur.com/uGtJSKC.jpg",
-        "https://i.imgur.com/3M4XOn6.jpg",
-        "2879",
-      ],
       恐暴龍: [
         "https://i.imgur.com/l2yVAsI.jpg",
         "https://i.imgur.com/NGKg2pH.jpg",
@@ -936,6 +930,12 @@ function doPost(e) {
         "https://i.imgur.com/Ec0Dfy7.jpg",
         "2995",
       ],
+      煌黑龍: [
+        "https://i.imgur.com/O5M84Hu.jpg",
+        "https://i.imgur.com/uGtJSKC.jpg",
+        "https://i.imgur.com/3M4XOn6.jpg",
+        "2879",
+      ],
       金獅子: [
         "https://i.imgur.com/07ybAvS.jpg",
         "https://i.imgur.com/cpe6JRQ.jpg",
@@ -1133,6 +1133,8 @@ function doPost(e) {
           return Re("激昂金獅子");
         case "岩龍":
           return Re("溶岩龍");
+        case "黑龍":
+          return Re("煌黑龍");
       }
     },
     ThingIf = (item) => {
