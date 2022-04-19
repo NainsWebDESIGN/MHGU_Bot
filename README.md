@@ -3,6 +3,7 @@
 - [鹽酸文章](https://home.gamer.com.tw/creationDetail.php?sn=4361083)
 - [白 Wiki](http://wiki.mhxg.org/)
 - [幽魂直播](https://space.bilibili.com/563682)
+- [配信裝備](https://home.gamer.com.tw/creationDetail.php?sn=4165031)
 
 ---
 
