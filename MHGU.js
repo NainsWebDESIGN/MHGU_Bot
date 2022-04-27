@@ -1257,6 +1257,20 @@ function doPost(e) {
       }
     },
     ImageObj = (name) => {
+      let egg = {
+        咆嘯: "在吼啊騷貨",
+        GP: "啊哈GP\r\n小張你有看到嗎?\r\n幹超帥",
+        蛋頭肉質: "欸小張你看恐暴龍在幫我吹",
+      };
+      if (Object.keys(egg).indexOf(name) >= 0) {
+        return {
+          key: "EGG",
+          value: {
+            type: "text",
+            text: egg[name],
+          },
+        };
+      }
       let Image = {
         塵魔: "https://i.imgur.com/j8JSwSt.jpg",
         闇螳螂: "https://i.imgur.com/wjGitP6.jpg",
@@ -1316,6 +1330,9 @@ function doPost(e) {
         "說好的打怪呢",
         "殘忍會心效益",
         "裏會心效益",
+        "咆嘯",
+        "GP",
+        "蛋頭肉質",
       ].forEach((item) => {
         if (userMessage.indexOf(item) >= 0) {
           box.push(item);
