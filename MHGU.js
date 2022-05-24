@@ -661,6 +661,7 @@ function doPost(e) {
         "https://i.imgur.com/1Y51BQl.jpg",
         "https://i.imgur.com/HZd0oAS.jpg",
         "https://i.imgur.com/Ec0Dfy7.jpg",
+        "https://i.imgur.com/RWQ8I3d.jpg",
         "2995",
       ],
       電龍: [
@@ -903,6 +904,7 @@ function doPost(e) {
         "https://i.imgur.com/O5M84Hu.jpg",
         "https://i.imgur.com/uGtJSKC.jpg",
         "https://i.imgur.com/3M4XOn6.jpg",
+        "https://i.imgur.com/4yrZW7w.jpg",
         "2879",
       ],
       金獅子: [
@@ -1259,6 +1261,16 @@ function doPost(e) {
       }
     },
     ImageObj = (name) => {
+      let MHR = "MHR ";
+      if (name.indexOf(MHR) >= 0) {
+        return {
+          key: "EGG",
+          value: {
+            type: "text",
+            text: `https://mhr.gameqb.net/?s=${userMessage.split(" ")[1]}`,
+          },
+        };
+      }
       let egg = {
         咆嘯: "在吼啊騷貨",
         GP: "啊哈GP\r\n小張你有看到嗎?\r\n幹超帥",
@@ -1296,6 +1308,11 @@ function doPost(e) {
         說好的打怪呢: "https://i.imgur.com/GEsYBpL.jpg",
         殘忍會心效益: "https://i.imgur.com/oVU0NBc.jpg",
         裏會心效益: "https://i.imgur.com/oVU0NBc.jpg",
+        Amber肉質: "https://i.imgur.com/3rWWTLl.jpg",
+        安柏肉質: "https://i.imgur.com/3rWWTLl.jpg",
+        傻爆眼: "https://i.imgur.com/DCmgvRN.jpg",
+        章爺肉質: "https://i.imgur.com/3ADAZqL.jpg",
+        仁哥肉質: "https://i.imgur.com/4cOkDgP.jpg",
       };
 
       return {
@@ -1335,6 +1352,12 @@ function doPost(e) {
         "咆嘯",
         "GP",
         "蛋頭肉質",
+        "Amber肉質",
+        "安柏肉質",
+        "傻爆眼",
+        "章爺肉質",
+        "仁哥肉質",
+        "MHR ",
       ].forEach((item) => {
         if (userMessage.indexOf(item) >= 0) {
           box.push(item);
